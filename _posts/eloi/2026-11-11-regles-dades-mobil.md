@@ -34,7 +34,7 @@ El RGPD en preveu sis: consentiment, contracte, obligació legal, interessos vit
 
 Les dues normes s'apliquen per vies diferents. La regla d'ePrivacy es va incorporar a la LSSI (art. 22.2), i el RGPD s'aplica directament, complementat per la Llei orgànica 3/2018 (LOPDGDD). La guia de cookies de l'AEPD, elaborada amb la indústria, explica com complir aquestes obligacions.
 
-## Què passa amb els  intermediaris de dades?
+## Què passa amb els intermediaris de dades?
 
 Els intermediaris de dades solen defensar que actuen amb el consentiment dels usuaris. Segons netzpolitik, però, la comissionada federal alemanya de protecció de dades i altres juristes ho consideren incompatible amb el RGPD: un consentiment ha de ser informat, i això és difícil de sostenir quan les dades es revenen a centenars d’entitats que l’usuari no coneix.
 

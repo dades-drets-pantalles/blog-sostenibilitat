@@ -1,5 +1,5 @@
 ---
-title: "Sé qui ets: construïnt perfils"
+title: "Sé qui ets: construint perfils"
 author: "Sergi López"
 date: 2026-11-11 11:40:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
@@ -10,7 +10,7 @@ Oferir a la venda un producte revolucionari no és prou per assegurar un nombre 
 
 ## El matís d’allò gratuït.
 
-Abans d’introduir com es procedeix en publicitat digital, cal pensar per què és rellevant i quina és la trampa davant de qualsevol descàrrega o accés sense cost. Com és obvi, però sovint menyspreat, qualsevol aplicació o web que fem servir en el dia comporta un elevat cost de manteniment de servidors, equips i sous. El culpable principal de poder mantenir-los: la publicitat. Els elevats ingressos de la publicitat són clars: el darrer any Meta i Google van obtenir-ne pràcticament 200 i 300 milers de milions de dàlars americans, respectivament, i la tendència és clarament ascendent, en gran part recolzada per la potència de la IA en el tractament de dades:
+Abans d’introduir com es procedeix en publicitat digital, cal pensar per què és rellevant i quina és la trampa davant de qualsevol descàrrega o accés sense cost. Com és obvi, però sovint menyspreat, qualsevol aplicació o web que fem servir en el dia comporta un elevat cost de manteniment de servidors, equips i sous. El culpable principal de poder mantenir-los: la publicitat. Els elevats ingressos de la publicitat són clars: el darrer any Meta i Google van obtenir-ne pràcticament 200 i 300 milers de milions de dòlars americans, respectivament, i la tendència és clarament ascendent, en gran part recolzada per la potència de la IA en el tractament de dades:
 
 <figure class="duo">
   <div class="duo-imgs">
@@ -33,7 +33,7 @@ El procés de recopilació d’informació personal consta de múltiples capes i
 
 - **Identificadors:** la segona capa de profunditat l’ofereixen els identificadors: codis únics que permeten rastrejar un dispositiu concret a la xarxa digital, així com un inici puntual de sessió. Avui dia es poden distingir dos identificadors principals: els MAIDs (Mobile Advertising IDs), que són els identificadors propis de cada sistema operatiu (per exemple, IDFA a Apple); i els Universal IDs (IDs Universals), que tenen un enfocament en la web i que són creats per empreses tecnològiques que empren el correu electrònic de l’usuari per rastrejar l’accés (l’exemple prototípic és UID2). Aquests darrers han anat substituint les cookies de tercers a mesura que se’n restringia l’ús i, en l’actualitat, els identificadors també es troben regulats sota polítiques estrictes i l’acceptació de l’usuari.
 
-- **SDK:** una tercera capa menys visible la constitueix l’anomenat SDK (Software Development Kit). Es tracta de mòduls de software incorporats a l’aplicació, que poden alhora imposar un determinat anunci i incorporar dades específiques capaces d’ignorar les polítiques de privacitat, com ara identificadors de disposititu o localització precisa. Aquesta informació és després compartida amb tercers de manera fraudulenta i inevitable.
+- **SDK:** una tercera capa menys visible la constitueix l’anomenat SDK (Software Development Kit). Es tracta de mòduls de software incorporats a l’aplicació, que poden alhora imposar un determinat anunci i incorporar dades específiques capaces d’ignorar les polítiques de privacitat, com ara identificadors de dispositiu o localització precisa. Aquesta informació és després compartida amb tercers de manera fraudulenta i inevitable.
 
   L’informe *Out of Control*, publicat pel Consell de Consumidors de Noruega el gener del 2020, va documentar certs usos fraudulents analitzant el trànsit de dades de deu aplicacions populars. D’entre les troballes hi havia una aplicació de maquillatge que enviava les coordenades GPS exactes dels seus usuaris, i aplicacions de seguiment del cicle menstrual que compartien dades íntimes amb Facebook i Google, entre d’altres. Segons una nota de premsa, Facebook rebia dades de nou de les aplicacions analitzades, i el servei publicitari de Google en rebia de vuit. El que ho fa pertorbador és el fet que la majoria d’aquestes aplicacions oferia una solució per limitar aquest compartiment de dades amb tercers.
 

@@ -6,11 +6,11 @@ bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"
 ---
 
-Diuen que el temps és or. Doncs bé, res més lluny de la realitat: l’or no és el temps, sinó tu. Una simple acció com obrir una aplicació gratuïta, comporta el viatge del teu perfil per mig món: desenes d’empreses han pujat per tu en una subhasta que dura **mil·lisegons**. Tu no hi has participat, ni t’has assabentat que se celebrava, però hi has posat la mercaderia. Però què ha passat en aquests ínfims instants de temps?
+Diuen que el temps és or. Doncs bé, res més lluny de la realitat: l’or no és el temps, sinó tu. Una simple acció com obrir una aplicació gratuïta comporta el viatge del teu perfil per mig món: desenes d’empreses han pujat per tu en una subhasta que dura **mil·lisegons**. Tu no hi has participat, ni t’has assabentat que se celebrava, però hi has posat la mercaderia. Però què ha passat en aquests ínfims instants de temps?
 
 ## La publicitat programàtica: venent audiències.
 
-La **publicitat programàtica** és el model més emprat de compra-venda d’espais publicitaris. Consisteix en l’automatització de la compra de mitjans i la creació d’anuncis digitals que siguin rellevants per a un determinat públic. L’any 2023, segons reporta Grand View Research, es van destinar 678 milers de milions de dòlars americans a nivell global en el mercat de la publicitat programàtica, una xifra amb un creixement mitjà per any que excedeix el 22%.
+La **publicitat programàtica** és el model més emprat de compravenda d’espais publicitaris. Consisteix en l’automatització de la compra de mitjans i la creació d’anuncis digitals que siguin rellevants per a un determinat públic. L’any 2023, segons reporta Grand View Research, es van destinar 678 milers de milions de dòlars americans a nivell global en el mercat de la publicitat programàtica, una xifra amb un creixement mitjà per any que excedeix el 22%.
 
 ## El model de la subhasta.
 
@@ -24,11 +24,11 @@ Hem destacat a posts anteriors la importància de l’ús de les dades en aquest
 
 El final i l’inici d’aquest negoci el conformen els **Ad Servers**, que són el mitjà de llançament dels anuncis i que és customitzable per la demanda i els permet accedir al temps de visualització mitjà, nombre de clics, etc. En total, el procés transcorre en **menys de 100 ms**.
 
-{% include figura.html src="/assets/img/sergi/esquema-subhasta.jpg" peu="Esquema de la suhasta. Font pròpia." alt="Esquema del procés de subhasta: usuari, Ad Server de l'editor, SSP, Ad Exchange, DSP i Ad Server de l'anunciant, amb DMP, grafs d'identitat i data brokers, en menys de 100 ms" %}
+{% include figura.html src="/assets/img/sergi/esquema-subhasta.jpg" peu="Esquema de la subhasta. Font pròpia." alt="Esquema del procés de subhasta: usuari, Ad Server de l'editor, SSP, Ad Exchange, DSP i Ad Server de l'anunciant, amb DMP, grafs d'identitat i data brokers, en menys de 100 ms" %}
 
 ## Diners: la base del negoci.
 
-Analitzem ara des del punt de vista econòmic les diverses maneres en què es desenvolupen les puges dels anuncis que veiem. Distingim dos tipus de subhastes: les de primer i segon preu. En les de **primer preu**, el guanyador paga exactament la seva aposta, mentre que en les de **segon preu**, el guanyador paga poc més que la segona aposta més alta.
+Analitzem ara des del punt de vista econòmic les diverses maneres en què es desenvolupen les pujes dels anuncis que veiem. Distingim dos tipus de subhastes: les de primer i segon preu. En les de **primer preu**, el guanyador paga exactament la seva aposta, mentre que en les de **segon preu**, el guanyador paga poc més que la segona aposta més alta.
 
 Ho exemplifiquem a l’exemple següent:
 
@@ -36,7 +36,7 @@ Ho exemplifiquem a l’exemple següent:
 
 {% include figura.html src="/assets/img/sergi/subhasta-segon-preu.jpg" peu="Subhasta de segon preu." alt="Tres licitadors ofereixen 4,00, 4,50 i 4,20 dòlars; guanya B i paga 4,21 dòlars" %}
 
-Aquests dos models comporten maneres de procedir diferents per part de la demanda, per exemple, a una subhasta de segon preu és viable sobrepagar el preu real o almenys apropar-se, i, alhora, comporta certa falta de transparència: un intermediari pot manipular la puja i inflar el segon preu més alt. Aquests són alguns motius pel qual a partir de 2019 moltes SSP independents i d’altres d’àmplia rellevància com Google AdManager van transicionar a les subhastes de primer preu. Davant aquest canvi, la demanda va haver d’adaptar les seves estratègies, donant pas al **bid shading**; algorismes que permeten optimitzar la compra per intentar pagar exactament allò necessari per guanyar. Alhora, els venedors juguen les seves cartes mitjançant la imposició de **price floors** més o menys estrictes, els quals fixen un preu mínim o orientatiu a pagar.
+Aquests dos models comporten maneres de procedir diferents per part de la demanda, per exemple, a una subhasta de segon preu és viable sobrepagar el preu real o almenys apropar-se, i, alhora, comporta certa falta de transparència: un intermediari pot manipular la puja i inflar el segon preu més alt. Aquests són alguns motius pels quals a partir de 2019 moltes SSP independents i d’altres d’àmplia rellevància com Google AdManager van transicionar a les subhastes de primer preu. Davant aquest canvi, la demanda va haver d’adaptar les seves estratègies, donant pas al **bid shading**; algorismes que permeten optimitzar la compra per intentar pagar exactament allò necessari per guanyar. Alhora, els venedors juguen les seves cartes mitjançant la imposició de **price floors** més o menys estrictes, els quals fixen un preu mínim o orientatiu a pagar.
 
 ## El repartiment del pagament.
 
@@ -44,7 +44,7 @@ La pregunta natural que tot lector es farà a continuació és on van a parar el
 
 ## La regulació: un actor protagonitzant més d’un paper.
 
-Per acabar, tot i que la publicitat programàtica és avui dia força opaca, diverses actuacions han tingut lloc per reduir l’aglutinació de poder. El cas recent més rellevant data del setembre de 2025, després que la UE multés Google amb 2.95 milers de milions d’euros a causa del seu abús dominant. En concret, segons va decretar un tribunal dels Estats Units, Google havia mantingut il·legalment monopolis en els servidors d’anuncis dels editors i en les borses d’anuncis, tot lligant AdX, la seva borsa, al seu servidor d’anuncis. El setembre del 2026 es va decidir, però, no obligar-la a vendre AdX, sinó aplicar mesures de conducta durant 6 anys. Aquest, doncs, és un exemple clar de la necessitat de col·locar sota un marc legal més estricte qui i de quina manera té control sobre les DSP, les SSP i els Ad Exchange i com, avui dia, els ingressos publicitaris d’empreses pioneres com Meta o Google són desmesurats.
+Per acabar, tot i que la publicitat programàtica és avui dia força opaca, diverses actuacions han tingut lloc per reduir l’aglutinació de poder. El cas recent més rellevant data del setembre de 2025, després que la UE multés Google amb 2,95 milers de milions d’euros a causa del seu abús dominant. En concret, segons va decretar un tribunal dels Estats Units, Google havia mantingut il·legalment monopolis en els servidors d’anuncis dels editors i en les borses d’anuncis, tot lligant AdX, la seva borsa, al seu servidor d’anuncis. El setembre del 2026 es va decidir, però, no obligar-la a vendre AdX, sinó aplicar mesures de conducta durant 6 anys. Aquest, doncs, és un exemple clar de la necessitat de col·locar sota un marc legal més estricte qui i de quina manera té control sobre les DSP, les SSP i els Ad Exchange i com, avui dia, els ingressos publicitaris d’empreses pioneres com Meta o Google són desmesurats.
 
 ## Recull de fonts
 
