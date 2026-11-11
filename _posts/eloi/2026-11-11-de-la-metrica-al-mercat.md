@@ -10,7 +10,7 @@ Al primer post vam veure que el telèfon genera dades sense parar: què fa, on �
 
 Encara no has llegit el primer post? El pots trobar aquí: [Què fa el teu telèfon quan no el veus?]({{ '/2026/11/11/que-fa-el-teu-telefon/' | relative_url }})
 
-## 1. Qui les rep?
+## Qui les rep?
 
 Hi ha tres destinataris principals:
 
@@ -18,7 +18,7 @@ Hi ha tres destinataris principals:
 - L'operadora: sap a quina antena et connectes i, [segons Apple](https://support.apple.com/126101), pot situar-te a partir d'aquestes antenes. A diferència del Wi-Fi, on el telèfon pot fer servir una adreça aleatòria, a la xarxa mòbil et connectes amb la teva SIM, que identifica la teva línia. Cada connexió a una antena deixa un registre amb hora, que [el Tribunal Suprem dels EUA](https://www.eff.org/cases/carpenter-v-united-states) (2018) va descriure com una crònica detallada de la presència física d'una persona.
 - Els intermediaris de dades (data brokers): són els qui acaben rebent les dades, i les obtenen a través de les apps que instal·les i de les llibreries de tercers (SDK, de publicitat o estadístiques) que porten dins. Quan dones permís d'ubicació a una app, les llibreries reben el mateix accés, perquè no hi ha permisos separats per a elles, i l'EFF en va trobar quatre, a Android, que comparteixen la ubicació per defecte quan l'app té permís. Les mateixes apps ja envien dades a tercers: [l'AEPD](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-dos-analisis-para-fomentar-la-privacidad-en) ho va il·lustrar el 2019, quan el simple fet d'obrir una app feia arribar a Facebook l'identificador publicitari, el nom de l'app, la ubicació, el model de telèfon i l'idioma, tant si l'usuari tenia compte com si no, i encara que hagués desactivat la personalització d'anuncis. Segons la FTC nord-americana, un d'aquests intermediaris i la seva filial deien recollir més de 17.000 milions de senyals al dia d'uns mil milions de telèfons.
 
-## 2. Què poden saber de tu?
+## Què poden saber de tu?
 
 Dels destinataris mencionats anteriorment, el més preocupant són els intermediaris de dades, ja que són els que compilen grans quantitats de dades per a vendre-les en paquets. Una única dada pot semblar que no té gaire importància, però el que importa és el conjunt: una experta adverteix que la ubicació és sensible per la recopilació completa que en fa, no per cada punt. Amb aquest conjunt es pot deduir:
 
@@ -27,7 +27,7 @@ Dels destinataris mencionats anteriorment, el més preocupant són els intermedi
 - Informació de salut. Alguns intermediaris connecten la ubicació amb altres dades i en dedueixen problemes de salut, per vendre’ls a empreses de tractaments dubtosos.
 - Qui ets. Les dades «anònimes» ho són poc: la FTC va dir que les dades d’un d’aquests intermediaris no estaven anonimitzades i servien per identificar dispositius concrets. A Europa, uns periodistes van identificar centenars de dispositius de gent que treballa en zones sensibles de la UE a partir d’una mostra gratuïta.
 
-## 3. Per a què s’utilitza?
+## Per a què s’utilitza?
 
 - Perquè el servei funcioni. Un mapa, el temps o una actualització necessiten dades. Aquest és l’ús legítim i esperat.
 - Publicitat i màrqueting. Els intermediaris creen llistes de consumidors classificats segons la ubicació dels seus aparells.

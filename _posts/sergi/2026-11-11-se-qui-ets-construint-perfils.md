@@ -8,7 +8,7 @@ pregunta: "Com funciona el model de negoci de la publicitat basada en dades de l
 
 Oferir a la venda un producte revolucionari no és prou per assegurar un nombre elevat de vendes. La realitat és completament distinta: un bon producte no es ven sol: ha d’arribar a la persona adequada en el moment adequat. D’això se n’encarrega la publicitat, però per què les teves dades personals serien de tanta utilitat? I com les empreses aconsegueixen fer realitat la frase “allò barat, acaba sortint car”?
 
-## 1. El matís d’allò gratuït.
+## El matís d’allò gratuït.
 
 Abans d’introduir com es procedeix en publicitat digital, cal pensar per què és rellevant i quina és la trampa davant de qualsevol descàrrega o accés sense cost. Com és obvi, però sovint menyspreat, qualsevol aplicació o web que fem servir en el dia comporta un elevat cost de manteniment de servidors, equips i sous. El culpable principal de poder mantenir-los: la publicitat. Els elevats ingressos de la publicitat són clars: el darrer any Meta i Google van obtenir-ne pràcticament 200 i 300 milers de milions de dàlars americans, respectivament, i la tendència és clarament ascendent, en gran part recolzada per la potència de la IA en el tractament de dades:
 
@@ -25,7 +25,7 @@ Abans d’introduir com es procedeix en publicitat digital, cal pensar per què 
 
 La lògica darrere del seu funcionament és senzilla: la retribució d’un anunci és proporcional al seu ajust a l’usuari: quines pàgines visita freqüentment, quant temps hi dedica, què consumeix preferentment… A diferència d’un cartell al carrer, que té un enfocament genèric, la publicitat digital arriba en un temps i a un dispositiu concrets, però el preu a pagar és la recollida d’informació.
 
-## 2. El que viatja amb tu.
+## El que viatja amb tu.
 
 El procés de recopilació d’informació personal consta de múltiples capes interconnectades:
 
@@ -39,7 +39,7 @@ El procés de recopilació d’informació personal consta de múltiples capes i
 
 - Finalment, cal destacar l’ús freqüent de **fingerprinting**, que pretén complementar els mètodes anteriors aprofitant el fet que l’empremta digital és única i inesborrable, fet que permet, igual que SDK, ignorar l’acceptació de permisos.
 
-## 3. Desxifrant perfils.
+## Desxifrant perfils.
 
 Un cop recollides les dades, però, el problema fonamental a què s’enfronta una empresa és la síntesi d’aquestes: com identificar si dos usuaris d’aplicacions diferents són o no la mateixa persona?
 

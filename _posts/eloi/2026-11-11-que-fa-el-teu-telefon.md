@@ -10,21 +10,21 @@ Saps quantes dades genera el teu mòbil ara mateix, mentre llegeixes això? I a 
 
 En aquesta sèrie de posts veurem quines dades produeix el teu telèfon de manera automàtica, qui hi té accés, què en fa i amb quina base legal. En aquest primer post ens centrem en el primer pas i parlarem de quins tipus de dades genera.
 
-## 1. Què fa el telèfon
+## Què fa el telèfon
 
 El sistema operatiu envia dades a Apple/Google. Un estudi de 2021 va mesurar un iPhone i un Pixel en repòs, amb la configuració mínima, i va veure que contactaven amb Apple o Google cada 4,5 minuts de mitjana, enviant identificadors com l'IMEI o els números de sèrie, fins i tot amb l'enviament d'analítiques desactivat. Un estudi publicat el 2023 va trobar que els Android de Samsung, Xiaomi, Huawei i Realme envien molt volum de dades al fabricant i a tercers, i que tots recullen la llista d'apps instal·lades. Les mesures són de fa uns anys i amb versions antigues dels sistemes, però mostren que una part d'aquest tràfic no depèn del que tu facis.
 
-## 2. On ets
+## On ets
 
 Per tenir cobertura, el mòbil ha d'avisar la xarxa de la seva posició, així que la teva operadora sap, a grans trets, a quina antena et connectes. A més, les apps poden calcular on ets amb el GPS, el Wi-Fi o el Bluetooth. Alguns iPhone recents (iPhone Air, 16e i 17e) tenen una funció (Limit Precise Location) que redueix la precisió de la ubicació que veuen les operadores: poden saber només el barri i no l'adreça exacta. Cal activar-la manualment, només funciona amb operadores compatibles i no afecta la ubicació que comparteixes amb les apps, que continuen podent recollir la teva posició per altres vies.
 
 Una bona notícia: des d'Android 10 el telèfon fa servir per defecte una adreça Wi-Fi aleatòria en connectar-se a una xarxa, i a l'iPhone l'adreça privada ve activada des d'iOS 14. Això dificulta que et segueixin per les xarxes Wi-Fi del carrer o d'un centre comercial.
 
-## 3. Com et mous
+## Com et mous
 
 El telèfon porta sensors que detecten moviment i orientació, com els que fan girar la pantalla o compten passos. Una recerca recent explica que cada sensor té petites imperfeccions de fabricació que el fan únic, fins al punt que uns quants minuts de dades poden bastar per reconèixer un telèfon amb més del 90 % d’encert. És a dir, només amb les dades dels sensors, un actor malvolent podria identificar i rastrejar el teu dispositiu a través de diferents plataformes sense demanar-te permís. A més, les defenses actuals de privadesa no poden aturar aquests atacs sense inutilitzar les dades dels sensors per a aplicacions legítimes. Tot i això, aquest tipus d’atacs tenen limitacions, ja que en escenaris més realistes la precisió baixa significativament si la població coneguda és petita.
 
-## 4. Qui ets
+## Qui ets
 
 Cada telèfon porta números que l'identifiquen, com una matrícula. Entre ells hi ha l'identificador publicitari, que serveix perquè els anunciants reconeguin el teu aparell entre apps. Hi tens un control parcial:
 

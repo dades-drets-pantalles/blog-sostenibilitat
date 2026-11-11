@@ -229,3 +229,7 @@ h1, h2, h3 { font-family: var(--sans); font-weight: 700; line-height: 1.12; lett
   .post-nav .next { grid-column: 1; }
   body { font-size: 16px; }
 }
+
+/* Paràgrafs justificats */
+.post-body p, .post-body li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.post-body .refs li, .post-body figcaption { text-align: left; hyphens: manual; }

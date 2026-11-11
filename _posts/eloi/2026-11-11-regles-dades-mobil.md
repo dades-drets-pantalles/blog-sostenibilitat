@@ -13,7 +13,7 @@ Si encara no has vist els primers posts:
 - Post 1: [Què fa el teu telèfon quan no el veus?]({{ '/2026/11/11/que-fa-el-teu-telefon/' | relative_url }})
 - Post 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({{ '/2026/11/11/de-la-metrica-al-mercat/' | relative_url }})
 
-## 1. Dues normes, dues preguntes
+## Dues normes, dues preguntes
 
 A Europa, les dades del mòbil les regulen sobretot dues normes, que responen a preguntes diferents:
 
@@ -22,19 +22,19 @@ A Europa, les dades del mòbil les regulen sobretot dues normes, que responen a 
 
 Les directrius de l'EDPB (el comitè europeu de protecció de dades), adoptades el 2024, aclareixen que la norma d'ePrivacy no es limita a les cookies: també cobreix píxels i enllaços de seguiment i l'empremta digital del dispositiu, que vam veure al post 1.
 
-## 2. Què és una dada personal?
+## Què és una dada personal?
 
 El RGPD considera dada personal la que permet identificar una persona, directament o indirectament, i hi inclou expressament les dades de localització i els identificadors en línia. Per això una ubicació precisa o un identificador publicitari, quan estan lligats a un dispositiu i a una persona, poden ser dades personals. I tractar-les exigeix una base legal.
 
-## 3. Les bases legals, en una frase
+## Les bases legals, en una frase
 
 El RGPD en preveu sis: consentiment, contracte, obligació legal, interessos vitals, interès públic i interès legítim. En publicitat digital, les més utilitzades són el consentiment i l'interès legítim, i el consentiment ha de ser lliure, específic, informat i inequívoc.
 
-## 4. Com s’aplica la normativa
+## Com s’aplica la normativa
 
 Les dues normes s'apliquen per vies diferents. La regla d'ePrivacy es va incorporar a la LSSI (art. 22.2), i el RGPD s'aplica directament, complementat per la Llei orgànica 3/2018 (LOPDGDD). La guia de cookies de l'AEPD, elaborada amb la indústria, explica com complir aquestes obligacions.
 
-## 5. Què passa amb els  intermediaris de dades?
+## Què passa amb els  intermediaris de dades?
 
 Els intermediaris de dades solen defensar que actuen amb el consentiment dels usuaris. Segons netzpolitik, però, la comissionada federal alemanya de protecció de dades i altres juristes ho consideren incompatible amb el RGPD: un consentiment ha de ser informat, i això és difícil de sostenir quan les dades es revenen a centenars d’entitats que l’usuari no coneix.
 
@@ -42,14 +42,14 @@ Ja hi ha un cas concret. L’autoritat competent va confirmar que l’app aleman
 
 Davant d’això, la Comissió Europea es va mostrar preocupada, però no va veure la necessitat immediata d’una nova regulació. La seva postura és que el problema no és que falti una norma, sinó que cal aplicar millor el RGPD, que ja exigeix un consentiment vàlid.
 
-## 5. Qui vigila i on reclamar
+## Qui vigila i on reclamar
 
 - AEPD: l'autoritat estatal. Vigila el sector privat i el sector públic estatal, i té competència per sancionar l'article 22.2 de la LSSI.
 - APDCAT: l'autoritat catalana. Vigila els ens públics de Catalunya (Generalitat, ens locals, universitats públiques) i el sector privat que els presta serveis. Si una reclamació queda fora de la seva competència, la trasllada a l'AEPD.
 
 Una empresa d'apps o de publicitat és, en general, competència de l'AEPD.
 
-## 6. Què està canviant
+## Què està canviant
 
 La Comissió Europea ha proposat canvis al RGPD i a l'ePrivacy amb el Digital Omnibus. Un d'ells és dividir les regles d'accés al dispositiu segons si l'accés «constitueix o porta» a un tractament de dades personals. EDRi (febrer de 2026) hi veu un límit inestable i un risc de menys protecció, tot i reconèixer que l'aplicació de les normes ha estat desigual i que les pràctiques abusives de consentiment continuen. L'EDPB i l'EDPS també han advertit que separar aquestes normes en instruments diferents pot crear incertesa legal. És una proposta en tramitació: el text pot canviar.
 
