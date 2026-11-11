@@ -39,7 +39,7 @@
       <xsl:for-each select="atom:feed/atom:entry">
         <li>
           <a href="{atom:link[@rel='alternate']/@href}"><xsl:value-of select="atom:title"/></a>
-          <div class="meta mono"><xsl:value-of select="atom:author/atom:name"/> · <xsl:value-of select="substring(atom:published, 1, 10)"/></div>
+          <div class="meta mono"><xsl:value-of select="atom:author/atom:name"/></div>
         </li>
       </xsl:for-each>
     </ul>

@@ -57,7 +57,6 @@ title: Inici
     {% for post in site.posts limit: 6 %}
     <li>
       <a href="{{ post.url | relative_url }}">
-        <span class="mono inf-date">[{{ post.date | date: "%d.%m" }}]</span>
         <span class="inf-main">
           <strong>{{ post.title }}</strong>
           <span>{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 22 }}{% endif %}</span>
