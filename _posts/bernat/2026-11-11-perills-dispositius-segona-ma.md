@@ -6,7 +6,7 @@ bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quins riscos afegeix un dispositiu de segona mà mal esborrat? Quins estàndards existeixen (NIST SP 800-88) i què impliquen?"
 ---
 
-Alguna vegada has vengut o regalat el teu mòbil? T’has plantejat si s’esborra correctament? Què creus que passaria en cas contrari? Esborrar és simplement destruir? Parlarem d’això i més en els propers tres posts.
+Alguna vegada has vengut o regalat el teu mòbil? T’has plantejat si s’esborra correctament? Què creus que passaria en cas contrari? Esborrar és simplement destruir? Parlarem d’això i més en aquesta sèrie de posts.
 
 ## Què passa quan venem un mòbil?
 

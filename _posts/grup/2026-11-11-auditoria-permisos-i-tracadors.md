@@ -5,7 +5,7 @@ date: 2026-11-11 18:30:00 +0100
 bloc: "Encàrrec propi"
 ---
 
-En aquest post analitzarem quins permisos i traçadors estan presents en una selecció de les aplicacions més usades. Per això hem seleccionat analitzar amb Exodus Privacy les següents 7 aplicacions: WhatsApp, Clash Royale, ChatGPT, Google Maps, Tinder, Mullvad VPN, i Facebook. Exodus Privacy és una organització sense ànim de lucre que analitza la privacitat d’aplicacions Android, enregistrant-ne quins rastrejadors usen (i per tant, quines dades recullen), i quins permisos demanen.
+En aquest post analitzarem quins permisos i traçadors estan presents en una selecció de les aplicacions més usades. Per això hem seleccionat analitzar amb Exodus Privacy les següents 7 aplicacions: WhatsApp, Clash Royale, ChatGPT, Google Maps, Tinder, Mullvad VPN, i Facebook. Exodus Privacy és una organització sense ànim de lucre que analitza la privacitat d’aplicacions Android, enregistrant-ne quins rastrejadors usen i quins permisos demanen.
 
 ## Resultats principals
 
@@ -17,7 +17,7 @@ El següent gràfic ens indica que hi ha una manca de correlació entre el nombr
 
 {% include figura.html src="/assets/img/grup/auditoria-permisos-i-tracadors.png" alt="Gràfic de dispersió: nombre de permisos declarats (eix horitzontal) davant del nombre de traçadors (eix vertical); la mida del punt és proporcional als permisos perillosos" %}
 
-Aquesta falta de correlació és deguda a la naturalesa tan diversa de les aplicacions triades: missatgeria instantània, joc de mòbil, IA, aplicació de cites, VPN, etc. Cal, doncs, una anàlisi més exhaustiva de quins traçadors i permisos, atenent a diverses categories, són útils per cada respectiva empresa. Alhora, el fet que Mullvad VPN no demani pràcticament permisos ni tingui cap traçador se sustenta en què es tracta de l’única aplicació de pagament i per tant, no només el seu públic és més selectiu, sinó que part de la recollida de dades és executada a partir de vies externes, com ara el propi pagament online. Exodus, però, no és capaç de recollir aquesta informació.
+Aquesta falta de correlació és deguda a la naturalesa tan diversa de les aplicacions triades: missatgeria instantània, joc de mòbil, IA, aplicació de cites, VPN, etc. Cal, doncs, una anàlisi més exhaustiva de quins traçadors i permisos, atenent a diverses categories, són útils per cada respectiva empresa. Alhora, el fet que Mullvad VPN no demani pràcticament permisos ni tingui cap traçador se sustenta en què es tracta de l’única aplicació de pagament i per tant el seu públic és més selectiu.
 
 ## Anàlisi dels traçadors
 
@@ -63,11 +63,11 @@ Recordem que perquè l’aplicació tingui accés a aquests permisos cal que aqu
 
 L’anàlisi anterior ens porta a les conclusions següents:
 
-- Tinder és l’app més carregada, amb set traçadors que combinen publicitat, analítica i atribució amb dades molt íntimes.
+- Tinder és de les apps més carregades, amb vuit traçadors que combinen publicitat, analítica i atribució amb dades molt íntimes.
 - Facebook compta amb menys dades de tercers, atès que ella mateixa és el seu propi sistema de rastreig.
-- Maps, tot i emprar pocs traçadors i no demanar massa permisos, pertany a Google i, alhora, disposa d’informació molt detallada de la ubicació de l’usuari.
+- Maps, tot i emprar pocs traçadors, pertany a Google i, alhora, disposa d’informació molt detallada de la ubicació de l’usuari.
 - ChatGPT i WhatsApp en tenen pocs, però el context de converses privades fa que l’accés a informació privada via Segment (en el cas de ChatGPT) o via l’abundància de permisos a acceptar (per part de WhatsApp) sigui rellevant.
-- Clash Royale i MullvadVPN tenen enfocaments molt diferents a les aplicacions anteriors. D’una banda, Clash Royale, en ser un joc de mòbil, demana un nombre baix de permisos, però ho compensa amb rastrejadors que analitzin i incentivin les compres dins l’aplicació. D’altra, MullvadVPN fa servir el pagament per fer-la servir com a mitjà d’obtenció de dades.
+- Clash Royale i MullvadVPN tenen enfocaments molt diferents a les aplicacions anteriors. D’una banda, Clash Royale, en ser un joc de mòbil, demana un nombre baix de permisos, però ho compensa amb rastrejadors que analitzin i incentivin les compres dins l’aplicació. D’altra, MullvadVPN, que és de pagament, no té cap traçador i demana molt pocs permisos.
 
 ## Fonts
 

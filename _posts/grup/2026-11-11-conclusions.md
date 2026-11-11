@@ -17,7 +17,7 @@ A l’[expedient 4]({{ '/entrades/' | relative_url }}#pregunta-4), vam analitzar
 
 Per acabar, a l’[expedient 5]({{ '/entrades/' | relative_url }}#pregunta-5), en relació als mòbils de segona mà, hem explorat les possibles conseqüències que pot tenir el fet que un dispositiu mòbil pertanyent a una persona/entitat vagi a parar a terceres persones (ja sigui per venda, regal, etc.) i la informació no estigui correctament esborrada. Hem vist que és possible recuperar dades que aparentment havien estat eliminades, o fins i tot en un mòbil que ha passat per un restabliment de fàbrica. També hem vist que no és el mateix eliminar informació d’un sistema operatiu que esborrar-la de manera irreversible (sanititzar). Finalment, hem vist que hi ha maneres de sanititzar un dispositiu seguint estàndards com el NIST SP 800-88.
 
-Després d’aquests cinc expedients, vam realitzar una [auditoria de rastrejadors d’aplicacions Android]({{ '/2026/11/11/auditoria-permisos-i-tracadors/' | relative_url }}), i vam trobar que Exodus Privacy és un recurs fàcil d’utilitzar i transparent per informar-se de com es tracten exactament les dades en cada aplicació.
+Després d’aquests cinc expedients, vam realitzar una [auditoria de rastrejadors d’aplicacions Android]({{ '/2026/11/11/auditoria-permisos-i-tracadors/' | relative_url }}), i vam trobar que Exodus Privacy és un recurs fàcil d’utilitzar i transparent per informar-se de com es tracten les dades en cada aplicació.
 
 ## Recomanacions per a VINCLE DIGITAL
 
