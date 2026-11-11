@@ -25,6 +25,7 @@ defaults:
 exclude:
   - CLAUDE.md
   - pendents/
+  - "_posts/*/README.md"
   - README.md
   - Gemfile
   - Gemfile.lock

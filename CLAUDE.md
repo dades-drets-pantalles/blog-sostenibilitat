@@ -6,18 +6,19 @@ Jekyll + GitHub Pages (`main`, `/ (root)`). Web: https://dades-drets-pantalles.g
 
 Quan algú pugi documents (al repo `uni`, a `PEF/El meu treball/Treball sostenibilitat/`, o aquí a `pendents/`):
 1. Mira si són entrades del blog.
-2. Passa-les a `_posts/AAAA-MM-DD-slug.md` **sense canviar el contingut**: només format. El títol `# ...` passa a `title`, la línia «*Bloc: ... Pregunta guia: ...*» passa a `bloc` i `pregunta`, i s'afegeix `author` i `date`. El text, les cites `[n]` i les referències queden tal qual.
+2. Passa-les a `_posts/<autor>/AAAA-MM-DD-slug.md` (carpeta de cada autor; imatges a `assets/img/<autor>/`) **sense canviar el contingut**: només format. El títol `# ...` passa a `title`, la línia «*Bloc: ... Pregunta guia: ...*» passa a `bloc` i `pregunta`, i s'afegeix `author` i `date`. El text, les cites `[n]` i les referències queden tal qual.
 3. Si un document és un esborrany o té dubtes pendents, pregunta abans de publicar-lo (o posa `published: false`).
 4. Compila (`jekyll build`), fes commit i push a `main`. Elimina l'original de `pendents/` un cop publicat.
 
 ## Estat de les entrades
 
-Membres: Joan Pascual, Eloi, Bernat, Sergi, Timothy (3 entrades cadascú).
+Membres i pregunta guia a `_data/preguntes.yml` (1 Eloi, 2 Sergi, 3 Timothy, 4 Joan, 5 Bernat; segons el document d'organització del grup). 3 entrades cadascú.
 - Joan: 1 publicada (consentiment). Pendents: entrada 2 (IA i dades públiques, a `uni`, amb dubtes oberts a `RGPD - Dubtes i revisió.md`) i una tercera.
-- Eloi: 3 publicades (sèrie sobre les dades del mòbil). Originals a `uni/PEF/El meu treball/Treball sostenibilitat/Eloi (originals)/`.
-- Bernat, Sergi, Timothy: cap encara.
+- Eloi: 3 publicades. Originals a `uni/PEF/El meu treball/Treball sostenibilitat/Eloi (originals)/`.
+- Sergi: 2 publicades («Sé qui ets», «Els mil·lisegons»), del PDF `Treball_Sostenibilitat_2.pdf` (pàg. 13-20), amb 5 imatges.
+- Timothy, Bernat: cap encara.
 
-Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Pendents ara: post 2 de Joan, post 2 de Sergi, «Els mil·lisegons de la discòrdia», «Auditoria de permisos i traçadors» (encàrrec propi).
+Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Els enllaços es fan amb la carpeta: `{% post_url eloi/2026-11-11-slug %}`. Pendents ara: post 2 de Joan, «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
 
 ## Normes del treball (cal tenir-les en compte en revisar entrades)
 

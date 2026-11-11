@@ -1,6 +1,8 @@
 ---
 title: "Quines regles protegeixen les dades del teu mòbil?"
 author: "Eloi"
+bloc: "Privacitat, vigilància i seguretat digital"
+pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 date: 2026-11-11 11:30:00 +0100
 ---
 
@@ -8,8 +10,8 @@ Als dos primers posts hem vist què genera el telèfon i on pot acabar. Ara toca
 
 Si encara no has vist els primers posts:
 
-- Post 1: [Què fa el teu telèfon quan no el veus?]({% post_url 2026-11-11-que-fa-el-teu-telefon %})
-- Post 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url 2026-11-11-de-la-metrica-al-mercat %})
+- Post 1: [Què fa el teu telèfon quan no el veus?]({% post_url eloi/2026-11-11-que-fa-el-teu-telefon %})
+- Post 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url eloi/2026-11-11-de-la-metrica-al-mercat %})
 
 ## 1. Dues normes, dues preguntes
 
@@ -55,7 +57,7 @@ Vols saber més sobre la legislació de protecció de dades i el RGPD?
 
 Llegeix els nostres posts:
 
-- [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({% post_url 2026-11-11-consentiment-digital %})
+- [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({% post_url joan/2026-11-11-consentiment-digital %})
 - Post 2 de Joan <!-- enllaç pendent: segona entrada de Joan -->
 
 ## Per saber-ne més

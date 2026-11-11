@@ -1,0 +1,21 @@
+# Ordre de les preguntes guia (document d'organització del grup). `carpeta` = carpeta de l'autor a _posts/.
+- num: 1
+  carpeta: eloi
+  autor: Eloi
+  pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
+- num: 2
+  carpeta: sergi
+  autor: Sergi
+  pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"
+- num: 3
+  carpeta: timothy
+  autor: Timothy
+  pregunta: "Quins riscos específics tenen les persones en situació vulnerable: estafes, phishing, suplantació d'identitat, control per part de tercers?"
+- num: 4
+  carpeta: joan
+  autor: Joan Pascual
+  pregunta: "Què protegeix el RGPD i on arriben els seus límits en la pràctica quotidiana?"
+- num: 5
+  carpeta: bernat
+  autor: Bernat
+  pregunta: "Quins riscos afegeix un dispositiu de segona mà mal esborrat? Quins estàndards existeixen (NIST SP 800-88) i què impliquen?"

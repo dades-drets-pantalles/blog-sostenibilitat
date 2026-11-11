@@ -2,21 +2,26 @@
 
 Web feta amb Jekyll i publicada amb GitHub Pages. Cada canvi a `main` es publica sol en 1-2 minuts.
 
-## Afegir o editar una entrada (des del navegador)
+## Estructura: una carpeta per autor
 
-1. Entra a la carpeta `_posts/` del repositori a github.com.
-2. **Add file → Create new file**. Nom: `AAAA-MM-DD-titol-curt.md` (per exemple `2026-11-12-vigilancia-laboral.md`). La data del nom és la data de publicació i ordena les entrades; si és futura, l'entrada no surt fins aquell dia.
-3. Copia la capçalera de `_posts/2026-11-11-plantilla.md` (el bloc entre `---`), omple-la i escriu el text a sota.
-4. **Commit changes** directament a `main`. En un parell de minuts és a la web (pestanya *Actions* per veure'n l'estat).
+| Autor | Entrades | Imatges |
+|---|---|---|
+| Eloi | `_posts/eloi/` | `assets/img/eloi/` |
+| Sergi | `_posts/sergi/` | `assets/img/sergi/` |
+| Timothy | `_posts/timothy/` | `assets/img/timothy/` |
+| Joan | `_posts/joan/` | `assets/img/joan/` |
+| Bernat | `_posts/bernat/` | `assets/img/bernat/` |
 
-Per editar una entrada existent: obre-la i clica el llapis.
+Cadascú edita només la seva carpeta. Al `README.md` de cada carpeta hi ha les instruccions i la capçalera ja omplerta amb la pregunta guia. La portada agrupa les entrades per pregunta guia segons aquestes carpetes (`_data/preguntes.yml`).
+
+Per editar: obre el fitxer a github.com, clica el llapis i fes **Commit changes** a `main`. En 1-2 minuts la web s'actualitza (pestanya *Actions* per veure'n l'estat).
 
 ## Imatges i gràfics
 
 Puja la imatge a `assets/img/` i posa-la a l'entrada així (amb peu de figura):
 
 ```liquid
-{% include figura.html src="/assets/img/nom.png" peu="Figura 1. Descripció i font de les dades." %}
+{% include figura.html src="/assets/img/<nom>/fitxer.png" peu="Figura 1. Descripció i font de les dades." %}
 ```
 
 Les cites `[1]`, `[2, 3]` es converteixen soles en enllaços a la llista de la secció «Referències».

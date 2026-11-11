@@ -1,6 +1,8 @@
 ---
 title: "Què fa el teu telèfon quan no el veus?"
 author: "Eloi"
+bloc: "Privacitat, vigilància i seguretat digital"
+pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 date: 2026-11-11 11:10:00 +0100
 ---
 
@@ -37,7 +39,7 @@ Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? L
 
 ## En resum
 
-El teu telèfon no és mai del tot en repòs: sempre està informant de qui és, on és i què fa. La part important no és només què genera, sinó qui ho rep. Vols saber qui rep tota aquesta informació i què en pot fer? Llegeix la part 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url 2026-11-11-de-la-metrica-al-mercat %})
+El teu telèfon no és mai del tot en repòs: sempre està informant de qui és, on és i què fa. La part important no és només què genera, sinó qui ho rep. Vols saber qui rep tota aquesta informació i què en pot fer? Llegeix la part 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url eloi/2026-11-11-de-la-metrica-al-mercat %})
 
 ## Per saber-ne més
 

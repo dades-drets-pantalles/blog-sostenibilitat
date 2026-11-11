@@ -6,33 +6,40 @@ title: Entrades
   <div class="wrap">
     <p class="kicker">Treball de sostenibilitat · PEF1 · ETSETB</p>
     <h1>{{ site.title }}</h1>
-    <p class="lead">{{ site.description }}</p>
-    {% assign blocs = site.posts | map: "bloc" | compact | uniq %}
-    {% if blocs.size > 0 %}
-    <ul class="chips" aria-label="Blocs temàtics">
-      {% for b in blocs %}<li>{{ b }}</li>{% endfor %}
-    </ul>
-    {% endif %}
+    <p class="lead">Privacitat, vigilància i seguretat digital: cinc preguntes, cinc autors.</p>
+    <ol class="toc">
+      {% for q in site.data.preguntes %}
+      <li><a href="#pregunta-{{ q.num }}"><span class="toc-num">{{ q.num }}</span><span class="toc-q">{{ q.pregunta }}</span><span class="toc-a">{{ q.autor }}</span></a></li>
+      {% endfor %}
+    </ol>
   </div>
 </section>
-<section class="wrap wide">
-  {% if site.posts.size == 0 %}
-  <p class="empty">Aviat hi haurà les primeres entrades.</p>
+{% for q in site.data.preguntes %}
+{% assign dir = '_posts/' | append: q.carpeta | append: '/' %}
+{% assign posts = site.posts | where_exp: "p", "p.path contains dir" | reverse %}
+<section class="wrap wide pregunta-sec" id="pregunta-{{ q.num }}">
+  <header class="sec-head">
+    <span class="sec-num">{{ q.num }}</span>
+    <div>
+      <h2>{{ q.pregunta }}</h2>
+      <p class="meta"><span class="who">{{ q.autor }}</span><span class="when">{{ posts.size }} {% if posts.size == 1 %}entrada{% else %}entrades{% endif %}</span></p>
+    </div>
+  </header>
+  {% if posts.size == 0 %}
+  <p class="empty">Aviat hi haurà les entrades d'aquesta pregunta.</p>
   {% else %}
   <ul class="cards">
-    {% for post in site.posts %}
+    {% for post in posts %}
     <li class="card">
       <a href="{{ post.url | relative_url }}">
-        {% if post.bloc %}<p class="bloc">{{ post.bloc }}</p>{% endif %}
-        <h2>{{ post.title }}</h2>
-        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 40 }}{% endif %}</p>
-        <p class="meta">
-          {% if post.author %}<span class="who">{{ post.author }}</span>{% endif %}
-          <span class="when">{% include data.html date=post.date %} · {% include temps.html text=post.content %}</span>
-        </p>
+        <p class="bloc">Entrada {{ forloop.index }}</p>
+        <h3>{{ post.title }}</h3>
+        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 32 }}{% endif %}</p>
+        <p class="meta"><span class="when">{% include temps.html text=post.content %}</span></p>
       </a>
     </li>
     {% endfor %}
   </ul>
   {% endif %}
 </section>
+{% endfor %}

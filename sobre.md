@@ -4,13 +4,14 @@ permalink: /sobre/
 layout: page
 ---
 
-Aquest bloc forma part del treball de sostenibilitat de *Projectes d'Enginyeria Física I* (ETSETB, UPC).
+Aquest bloc forma part del treball de sostenibilitat de *Projectes d'Enginyeria Física I* (ETSETB, UPC), sobre privacitat, vigilància i seguretat digital.
 
-<!-- Completeu: membres del grup, projecte de referència (VINCLE DIGITAL), blocs temàtics... -->
+<!-- Completeu: context del projecte (VINCLE DIGITAL), objectiu del blog... -->
 
 ## Autoria
 
-<!-- Nom i bloc temàtic de cada membre del grup. -->
+{% for q in site.data.preguntes %}- **{{ q.autor }}**: {{ q.pregunta }}
+{% endfor %}
 
 ## Crèdits i ús d'IA
 

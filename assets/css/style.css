@@ -81,13 +81,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 650; line-height: 1.2; le
   transition: transform .15s ease, border-color .15s ease;
 }
 .card a:hover { transform: translateY(-2px); border-color: var(--accent); }
-.card h2 { font-size: 1.35rem; margin: 0 0 .7rem; }
-@media (min-width: 760px) {
-  .card:first-child { grid-column: 1 / -1; }
-  .card:first-child a { padding: 2rem 2.2rem 1.8rem; }
-  .card:first-child h2 { font-size: 2rem; max-width: 40rem; }
-  .card:first-child .excerpt { font-size: 1.08rem; max-width: 42rem; }
-}
+.card h3 { font-size: 1.3rem; margin: 0 0 .7rem; }
 .card .excerpt { font-size: 1rem; line-height: 1.55; color: var(--muted); margin: 0 0 1.2rem; flex: 1; }
 .empty { color: var(--muted); font-style: italic; }
 
@@ -147,3 +141,22 @@ h1, h2, h3 { font-family: var(--display); font-weight: 650; line-height: 1.2; le
   .home-hero { padding-top: 2.4rem; }
 }
 .meta .when { white-space: nowrap; }
+
+/* ---------- Home: preguntes guia ---------- */
+.toc { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: .5rem; max-width: 48rem; }
+.toc a { display: grid; grid-template-columns: 2rem 1fr auto; gap: .8rem; align-items: baseline; padding: .7rem .9rem; border-radius: 10px; text-decoration: none; color: var(--text); font: 400 .95rem/1.45 var(--sans); border: 1px solid transparent; }
+.toc a:hover { background: var(--surface); border-color: var(--rule); }
+.toc-num, .sec-num { font: 650 1.1rem/1 var(--display); color: var(--accent); }
+.toc-a { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+.pregunta-sec { padding-top: 2.5rem; scroll-margin-top: 4rem; }
+.pregunta-sec + .pregunta-sec { border-top: 1px solid var(--rule); }
+.sec-head { display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: start; margin-bottom: 1.4rem; }
+.sec-head .sec-num { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: var(--accent-soft); font-size: 1.3rem; }
+.sec-head h2 { font-size: clamp(1.25rem, 3vw, 1.6rem); margin: .1rem 0 .4rem; max-width: 46rem; }
+.pregunta-sec .cards { margin: 0 0 2.5rem; }
+.pregunta-sec:last-of-type .cards, .pregunta-sec:last-of-type .empty { margin-bottom: 4rem; }
+@media (max-width: 560px) { .toc a { grid-template-columns: 1.6rem 1fr; } .toc-a { grid-column: 2; } }
+
+/* ---------- Figures dobles ---------- */
+.duo-imgs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: .8rem; align-items: end; }
+.post-body figcaption a { overflow-wrap: anywhere; }

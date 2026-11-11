@@ -1,12 +1,14 @@
 ---
 title: "De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?"
 author: "Eloi"
+bloc: "Privacitat, vigilància i seguretat digital"
+pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 date: 2026-11-11 11:20:00 +0100
 ---
 
 Al primer post vam veure que el telèfon genera dades sense parar: què fa, on és, com es mou i quin «número» porta. Ara toca la pregunta següent: on van a parar? Què poden saber de tu amb elles? I per a què les fan servir?
 
-Encara no has llegit el primer post? El pots trobar aquí: [Què fa el teu telèfon quan no el veus?]({% post_url 2026-11-11-que-fa-el-teu-telefon %})
+Encara no has llegit el primer post? El pots trobar aquí: [Què fa el teu telèfon quan no el veus?]({% post_url eloi/2026-11-11-que-fa-el-teu-telefon %})
 
 ## 1. Qui les rep?
 
@@ -34,7 +36,7 @@ Dels destinataris mencionats anteriorment, el més preocupant són els intermedi
 
 Si vols saber més sobre el model de negoci de la publicitat basat en aquestes dades, llegeix els nostres articles:
 
-- Els mil·lisegons de la discòrdia <!-- enllaç pendent: entrada no publicada -->
+- [Els mil·lisegons de la discòrdia]({% post_url sergi/2026-11-11-els-milisegons-de-la-discordia %})
 - Post 2 de Sergi <!-- enllaç pendent: segona entrada de Sergi -->
 
 ## En resum
@@ -43,7 +45,7 @@ La major part de les dades es queden entre tu, el sistema i l’app que fas serv
 
 Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: Auditoria de permisos i traçadors aplicacions d'ús habitual. <!-- enllaç pendent: entrada de l'encàrrec propi -->
 
-Vols saber quines són les lleis que regulen tot això? Llegeix el següent post: [Quines regles protegeixen les dades del teu mòbil?]({% post_url 2026-11-11-regles-dades-mobil %})
+Vols saber quines són les lleis que regulen tot això? Llegeix el següent post: [Quines regles protegeixen les dades del teu mòbil?]({% post_url eloi/2026-11-11-regles-dades-mobil %})
 
 ## Per saber-ne més
 
