@@ -1,3 +1,3 @@
 {%- assign paraules = include.text | strip_html | number_of_words -%}
 {%- assign minuts = paraules | divided_by: 200.0 | ceil -%}
-{{ minuts }} min de lectura
+{%- if include.curt -%}{{ minuts }} min{%- else -%}{{ minuts }} min de lectura{%- endif -%}

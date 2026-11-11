@@ -1,45 +1,71 @@
 ---
 layout: default
-title: Entrades
+title: Inici
 ---
-<section class="home-hero">
-  <div class="wrap">
-    <p class="kicker">Treball de sostenibilitat · PEF1 · ETSETB</p>
-    <h1>{{ site.title }}</h1>
-    <p class="lead">Privacitat, vigilància i seguretat digital: cinc preguntes, cinc autors.</p>
-    <ol class="toc">
-      {% for q in site.data.preguntes %}
-      <li><a href="#pregunta-{{ q.num }}"><span class="toc-num">{{ q.num }}</span><span class="toc-q">{{ q.pregunta }}</span><span class="toc-a">{{ q.autor }}</span></a></li>
-      {% endfor %}
-    </ol>
+<section class="hero">
+  <div class="wrap wide hero-grid">
+    <div class="hero-text">
+      <p class="pill mono"><span class="dot" aria-hidden="true"></span>Expedient obert · Blog de sostenibilitat digital</p>
+      <h1>Dades, drets<br><span class="accent">i pantalles</span></h1>
+      <p class="lead">Privacitat, vigilància i seguretat digital: cinc preguntes, cinc autors.</p>
+      <p class="redacted-line mono">Mentre llegeixes això, <span class="redacted" tabindex="0" title="Passa-hi el ratolí"><span>el teu mòbil continua enviant dades</span></span>.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#preguntes">Comença la investigació</a>
+        <a class="btn btn-ghost" href="{{ '/sobre/' | relative_url }}">Sobre el projecte</a>
+      </div>
+    </div>
+    <figure class="hero-art">
+      {% include ull.html %}
+      <figcaption class="mono"><span class="rec" aria-hidden="true">●</span> CAM-05 · EN DIRECTE · OBJECTIU: TU</figcaption>
+    </figure>
   </div>
 </section>
-{% for q in site.data.preguntes %}
-{% assign dir = '_posts/' | append: q.carpeta | append: '/' %}
-{% assign posts = site.posts | where_exp: "p", "p.path contains dir" | reverse %}
-<section class="wrap wide pregunta-sec" id="pregunta-{{ q.num }}">
-  <header class="sec-head">
-    <span class="sec-num">{{ q.num }}</span>
-    <div>
-      <h2>{{ q.pregunta }}</h2>
-      <p class="meta"><span class="who">{{ q.autor }}</span><span class="when">{{ posts.size }} {% if posts.size == 1 %}entrada{% else %}entrades{% endif %}</span></p>
-    </div>
-  </header>
-  {% if posts.size == 0 %}
-  <p class="empty">Aviat hi haurà les entrades d'aquesta pregunta.</p>
-  {% else %}
-  <ul class="cards">
-    {% for post in posts %}
-    <li class="card">
+
+<section class="wrap wide section" id="preguntes">
+  <h2 class="section-title"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>Les cinc preguntes</h2>
+  <p class="section-sub">Cinc expedients, cinc investigadors. Tria per on començar.</p>
+  <ul class="expedients">
+    {% for q in site.data.preguntes %}
+    {% assign dir = '_posts/' | append: q.carpeta | append: '/' %}
+    {% assign posts = site.posts | where_exp: "p", "p.path contains dir" %}
+    <li class="expedient{% if posts.size == 0 %} buit{% endif %}">
+      <a href="{{ '/entrades/' | relative_url }}#pregunta-{{ q.num }}">
+        <div class="exp-top">
+          <span class="mono exp-num">Expedient 0{{ q.num }}</span>
+          {% if posts.size == 0 %}<span class="badge badge-wip mono">En investigació</span>{% else %}<span class="badge mono">{{ posts.size }} {% if posts.size == 1 %}entrada{% else %}entrades{% endif %}</span>{% endif %}
+        </div>
+        <h3>{{ q.curt }}</h3>
+        <p class="exp-q">{{ q.pregunta }}</p>
+        {% if posts.size == 0 %}<span class="bars" aria-hidden="true"><i></i><i></i></span>{% endif %}
+        <p class="mono agent">Agent: <span>{{ q.autor }}</span></p>
+      </a>
+    </li>
+    {% endfor %}
+    <li class="expedient promo">
+      <a href="{{ '/feed.xml' | relative_url }}">
+        <svg class="ico ico-eye" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+        <h3>Cada clic deixa rastre. Aquí t'expliquem qui el segueix.</h3>
+        <p class="mono agent">Subscriu-te per RSS →</p>
+      </a>
+    </li>
+  </ul>
+</section>
+
+<section class="wrap wide section">
+  <h2 class="section-title plain">Darrers informes</h2>
+  <ul class="informes">
+    {% for post in site.posts limit: 6 %}
+    <li>
       <a href="{{ post.url | relative_url }}">
-        <p class="bloc">Entrada {{ forloop.index }}</p>
-        <h3>{{ post.title }}</h3>
-        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 32 }}{% endif %}</p>
-        <p class="meta"><span class="when">{% include temps.html text=post.content %}</span></p>
+        <span class="mono inf-date">[{{ post.date | date: "%d.%m" }}]</span>
+        <span class="inf-main">
+          <strong>{{ post.title }}</strong>
+          <span>{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 22 }}{% endif %}</span>
+        </span>
+        <span class="mono inf-meta">[{{ post.author }}] · [{% include temps.html text=post.content curt=true %}]</span>
       </a>
     </li>
     {% endfor %}
   </ul>
-  {% endif %}
+  <p class="mono more"><a href="{{ '/entrades/' | relative_url }}">Totes les entrades →</a></p>
 </section>
-{% endfor %}

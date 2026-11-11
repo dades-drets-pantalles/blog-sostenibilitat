@@ -1,0 +1,38 @@
+---
+layout: default
+title: Entrades
+permalink: /entrades/
+---
+<header class="page-hero">
+  <div class="wrap wide">
+    <p class="mono kicker">// Arxiu</p>
+    <h1>Entrades</h1>
+    <p class="lead">Totes les entrades, ordenades per expedient.</p>
+  </div>
+</header>
+{% for q in site.data.preguntes %}
+{% assign dir = '_posts/' | append: q.carpeta | append: '/' %}
+{% assign posts = site.posts | where_exp: "p", "p.path contains dir" | reverse %}
+<section class="wrap wide section arxiu" id="pregunta-{{ q.num }}">
+  <header class="arxiu-head">
+    <p class="mono exp-num">Expedient 0{{ q.num }} · Agent: {{ q.autor }}</p>
+    <h2>{{ q.curt }}</h2>
+    <p class="exp-q">{{ q.pregunta }}</p>
+  </header>
+  {% if posts.size == 0 %}
+  <p class="empty mono">[ En investigació: aviat hi haurà les entrades d'aquest expedient. ]</p>
+  {% else %}
+  <ol class="cards">
+    {% for post in posts %}
+    <li class="card">
+      <a href="{{ post.url | relative_url }}">
+        <p class="mono exp-num">Entrada {{ forloop.index }} · {% include temps.html text=post.content curt=true %}</p>
+        <h3>{{ post.title }}</h3>
+        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 30 }}{% endif %}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</section>
+{% endfor %}
