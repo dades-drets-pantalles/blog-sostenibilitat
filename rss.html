@@ -1,0 +1,42 @@
+---
+layout: default
+title: Subscriu-t'hi per RSS
+permalink: /rss/
+---
+<header class="page-hero">
+  <div class="wrap">
+    <p class="mono kicker">// Feed RSS</p>
+    <h1>Rep les entrades noves</h1>
+    <p class="lead">Sense xarxes socials ni algoritmes: el blog t'avisa quan hi ha un informe nou.</p>
+  </div>
+</header>
+<div class="wrap post-body page-body">
+  <aside class="pregunta">
+    <span class="mono pregunta-label">Adreça del feed</span>
+    <p class="feed-url"><code id="feed-url">{{ '/feed.xml' | absolute_url }}</code></p>
+    <button class="btn btn-primary copy" type="button" data-copy="feed-url">Copia l'adreça</button>
+  </aside>
+
+  <h2>Com funciona</h2>
+  <ol>
+    <li>Instal·la una app de lectura de feeds: per exemple Feedly o Inoreader (web i mòbil), NetNewsWire (iPhone i Mac) o Thunderbird.</li>
+    <li>Copia l'adreça de dalt i enganxa-la a l'app, a l'opció d'afegir una font o subscripció.</li>
+    <li>Cada entrada nova del blog t'apareixerà a l'app.</li>
+  </ol>
+
+  <h2>Darreres entrades</h2>
+  <ul>
+    {% for post in site.posts limit: 10 %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> · <span class="mono" style="font-size:.8em;color:var(--dim)">{{ post.author }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = document.getElementById(b.dataset.copy).textContent.trim();
+    var done = function () { b.textContent = 'Copiada ✓'; setTimeout(function () { b.textContent = "Copia l'adreça"; }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, done); else done();
+  });
+});
+</script>

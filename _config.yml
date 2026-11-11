@@ -29,7 +29,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
-# Feed RSS/Atom: amb xsl el navegador el mostra com una pàgina (feed.xslt.xml) en lloc d'XML en brut.
-feed:
-  xsl: true
