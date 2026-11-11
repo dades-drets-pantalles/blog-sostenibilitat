@@ -1,9 +1,8 @@
 ---
 title: Sobre el bloc
 permalink: /sobre/
+layout: page
 ---
-
-# Sobre el bloc
 
 Aquest bloc forma part del treball de sostenibilitat de *Projectes d'Enginyeria Física I* (ETSETB, UPC).
 

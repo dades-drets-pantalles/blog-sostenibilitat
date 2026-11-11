@@ -2,17 +2,37 @@
 layout: default
 title: Entrades
 ---
-<section class="intro">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+<section class="home-hero">
+  <div class="wrap">
+    <p class="kicker">Treball de sostenibilitat · PEF1 · ETSETB</p>
+    <h1>{{ site.title }}</h1>
+    <p class="lead">{{ site.description }}</p>
+    {% assign blocs = site.posts | map: "bloc" | compact | uniq %}
+    {% if blocs.size > 0 %}
+    <ul class="chips" aria-label="Blocs temàtics">
+      {% for b in blocs %}<li>{{ b }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </section>
-<ul class="post-list">
-  {% for post in site.posts %}
-  <li>
-    {% if post.bloc %}<p class="bloc">{{ post.bloc }}</p>{% endif %}
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p class="meta">{% if post.author %}{{ post.author }} · {% endif %}{% include data.html date=post.date %}</p>
-    {% if post.resum %}<p>{{ post.resum }}</p>{% endif %}
-  </li>
-  {% endfor %}
-</ul>
+<section class="wrap wide">
+  {% if site.posts.size == 0 %}
+  <p class="empty">Aviat hi haurà les primeres entrades.</p>
+  {% else %}
+  <ul class="cards">
+    {% for post in site.posts %}
+    <li class="card">
+      <a href="{{ post.url | relative_url }}">
+        {% if post.bloc %}<p class="bloc">{{ post.bloc }}</p>{% endif %}
+        <h2>{{ post.title }}</h2>
+        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 40 }}{% endif %}</p>
+        <p class="meta">
+          {% if post.author %}<span class="who">{{ post.author }}</span>{% endif %}
+          <span class="when">{% include data.html date=post.date %} · {% include temps.html text=post.content %}</span>
+        </p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>

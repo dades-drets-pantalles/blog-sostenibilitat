@@ -1,6 +1,6 @@
 # Configuració del blog. Canvieu el títol i la descripció quan tingueu el nom definitiu.
 title: "Dades, drets i pantalles"
-description: "Bloc del treball de sostenibilitat de PEF1 (ETSETB, UPC): privacitat, vigilància i seguretat digital."
+description: "Bloc del treball de sostenibilitat de PEF1 (ETSETB, UPC)."
 lang: ca
 
 # No toqueu `url` ni `baseurl`: GitHub Pages els omple sol segons el nom del repositori.
@@ -23,6 +23,8 @@ defaults:
     values: { layout: default }
 
 exclude:
+  - CLAUDE.md
+  - pendents/
   - README.md
   - Gemfile
   - Gemfile.lock

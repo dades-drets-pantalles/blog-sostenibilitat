@@ -11,15 +11,19 @@ Web feta amb Jekyll i publicada amb GitHub Pages. Cada canvi a `main` es publica
 
 Per editar una entrada existent: obre-la i clica el llapis.
 
-## Imatges
+## Imatges i gràfics
 
-Puja-les a `assets/img/` i posa-les a l'entrada així:
+Puja la imatge a `assets/img/` i posa-la a l'entrada així (amb peu de figura):
 
-```markdown
-![Descripció de la imatge]({{ '/assets/img/nom.png' | relative_url }})
+```liquid
+{% include figura.html src="/assets/img/nom.png" peu="Figura 1. Descripció i font de les dades." %}
 ```
 
-(El `relative_url` cal perquè la web viu a `usuari.github.io/nom-del-repo/`.)
+Les cites `[1]`, `[2, 3]` es converteixen soles en enllaços a la llista de la secció «Referències».
+
+## Entrades pendents
+
+Si no vols fer la conversió tu, deixa el document (`.md`, `.docx`, `.txt`) a `pendents/` i es passarà al format del blog.
 
 ## Previsualitzar en local (opcional)
 

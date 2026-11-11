@@ -1,0 +1,4 @@
+<figure>
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.peu }}" loading="lazy">
+  {% if include.peu %}<figcaption>{{ include.peu }}</figcaption>{% endif %}
+</figure>
