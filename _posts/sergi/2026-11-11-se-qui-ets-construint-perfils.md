@@ -1,6 +1,6 @@
 ---
 title: "Sé qui ets: construïnt perfils"
-author: "Sergi"
+author: "Sergi López"
 date: 2026-11-11 11:40:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"

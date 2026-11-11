@@ -1,4 +1,4 @@
-# Entrades de Timothy
+# Entrades de Timothy Skipper
 
 Pregunta guia: *Quins riscos específics tenen les persones en situació vulnerable: estafes, phishing, suplantació d'identitat, control per part de tercers?*
 
@@ -15,7 +15,7 @@ Obre el fitxer, clica el llapis (✏️), canvia el que vulguis i fes **Commit c
 ```yaml
 ---
 title: "Títol de l'entrada"
-author: "Timothy"
+author: "Timothy Skipper"
 date: AAAA-MM-DD 12:00:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quins riscos específics tenen les persones en situació vulnerable: estafes, phishing, suplantació d'identitat, control per part de tercers?"

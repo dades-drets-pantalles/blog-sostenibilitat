@@ -1,4 +1,4 @@
-# Entrades de Eloi
+# Entrades de Eloi Estévez
 
 Pregunta guia: *Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?*
 
@@ -15,7 +15,7 @@ Obre el fitxer, clica el llapis (✏️), canvia el que vulguis i fes **Commit c
 ```yaml
 ---
 title: "Títol de l'entrada"
-author: "Eloi"
+author: "Eloi Estévez"
 date: AAAA-MM-DD 12:00:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"

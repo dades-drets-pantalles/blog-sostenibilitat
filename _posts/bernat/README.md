@@ -1,4 +1,4 @@
-# Entrades de Bernat
+# Entrades de Bernat Casajuana
 
 Pregunta guia: *Quins riscos afegeix un dispositiu de segona mà mal esborrat? Quins estàndards existeixen (NIST SP 800-88) i què impliquen?*
 
@@ -15,7 +15,7 @@ Obre el fitxer, clica el llapis (✏️), canvia el que vulguis i fes **Commit c
 ```yaml
 ---
 title: "Títol de l'entrada"
-author: "Bernat"
+author: "Bernat Casajuana"
 date: AAAA-MM-DD 12:00:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quins riscos afegeix un dispositiu de segona mà mal esborrat? Quins estàndards existeixen (NIST SP 800-88) i què impliquen?"

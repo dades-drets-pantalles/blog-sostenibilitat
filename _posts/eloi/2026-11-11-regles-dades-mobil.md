@@ -1,6 +1,6 @@
 ---
 title: "Quines regles protegeixen les dades del teu mòbil?"
-author: "Eloi"
+author: "Eloi Estévez"
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 date: 2026-11-11 11:30:00 +0100
@@ -58,7 +58,7 @@ Vols saber més sobre la legislació de protecció de dades i el RGPD?
 Llegeix els nostres posts:
 
 - [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({% post_url joan/2026-11-11-consentiment-digital %})
-- Post 2 de Joan <!-- enllaç pendent: segona entrada de Joan -->
+- [Ningú no t'ha demanat permís: el RGPD davant la intel·ligència artificial]({% post_url joan/2026-11-11-rgpd-ia-dades-publiques %})
 
 ## Per saber-ne més
 

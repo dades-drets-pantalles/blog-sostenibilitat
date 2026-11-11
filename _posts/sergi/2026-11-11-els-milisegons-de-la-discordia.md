@@ -1,6 +1,6 @@
 ---
 title: "Els mil·lisegons de la discòrdia"
-author: "Sergi"
+author: "Sergi López"
 date: 2026-11-11 11:50:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"

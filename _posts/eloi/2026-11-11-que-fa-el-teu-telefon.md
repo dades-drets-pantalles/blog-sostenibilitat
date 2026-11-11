@@ -1,6 +1,6 @@
 ---
 title: "Què fa el teu telèfon quan no el veus?"
-author: "Eloi"
+author: "Eloi Estévez"
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 date: 2026-11-11 11:10:00 +0100

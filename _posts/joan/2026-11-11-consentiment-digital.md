@@ -6,7 +6,7 @@ bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "què protegeix el RGPD i on arriben els seus límits en la pràctica quotidiana?"
 ---
 
-A tots ens passa: obres una web des del mòbil i apareix un bàner. Hi ha un botó gran que diu «Acceptar» i, potser, un de més discret per configurar les opcions. Impacientment, hi prems sense llegir res, just abans de rebre la dosi de decepció quan descobreixes que el titular és "clickbait". Surts de la pàgina i segueixes amb normalitat. Les teves dades no poden fer el mateix.
+A tots ens passa: obres una web des del mòbil i apareix un bàner. Hi ha un botó gran que diu «Acceptar» i, potser, un de més discret per configurar les opcions. Impacientment, hi prems sense llegir res, just abans de rebre la dosi de decepció quan descobreixes que el titular és *clickbait*. Surts de la pàgina i segueixes amb normalitat. Les teves dades no poden fer el mateix.
 
 ## Què protegeix el RGPD
 
@@ -48,7 +48,7 @@ El RGPD protegeix de debò contra les pitjors pràctiques: caselles premarcades,
 
 Aquesta asimetria pesa més en qui té menys marge. El projecte VINCLE DIGITAL lliura mòbils a persones en situació de sensellarisme o precarietat greu, per a qui el telèfon pot ser una via d'accés a serveis bàsics. Refusar condicions o pagar per evitar el seguiment no és una opció igual per a tothom. Per això el debat no és només jurídic: és també una qüestió d'equitat.
 
-Una darrera reflexió crítica. Limitar el tractament de les dades redueix els beneficis de les petites plataformes informatives. Això incrementaria la importància del finançament per part d'empreses grans o lobbys a l'hora d'influir en el missatge que arriba al lector. Moltes fake news no necessiten les teves dades per ser rentables. 
+Una darrera reflexió crítica. Limitar el tractament de les dades redueix els beneficis de les petites plataformes informatives. Això incrementaria la importància del finançament per part d'empreses grans o lobbies a l'hora d'influir en el missatge que arriba al lector. Moltes *fake news* no necessiten les teves dades per ser rentables.
 
 ## Referències
 

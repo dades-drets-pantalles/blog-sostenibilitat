@@ -1,4 +1,4 @@
-# Entrades de Sergi
+# Entrades de Sergi López
 
 Pregunta guia: *Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?*
 
@@ -15,7 +15,7 @@ Obre el fitxer, clica el llapis (✏️), canvia el que vulguis i fes **Commit c
 ```yaml
 ---
 title: "Títol de l'entrada"
-author: "Sergi"
+author: "Sergi López"
 date: AAAA-MM-DD 12:00:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"

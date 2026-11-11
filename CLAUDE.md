@@ -12,13 +12,13 @@ Quan algú pugi documents (al repo `uni`, a `PEF/El meu treball/Treball sostenib
 
 ## Estat de les entrades
 
-Membres i pregunta guia a `_data/preguntes.yml` (1 Eloi, 2 Sergi, 3 Timothy, 4 Joan, 5 Bernat; segons el document d'organització del grup). 3 entrades cadascú.
-- Joan: 1 publicada (consentiment). Pendents: entrada 2 (IA i dades públiques, a `uni`, amb dubtes oberts a `RGPD - Dubtes i revisió.md`) i una tercera.
+Membres i pregunta guia a `_data/preguntes.yml` (1 Eloi Estévez, 2 Sergi López, 3 Timothy Skipper, 4 Joan Pascual, 5 Bernat Casajuana; segons el document d'organització del grup). 3 entrades cadascú.
+- Joan: 2 publicades (consentiment; IA i dades públiques). Falta la tercera.
 - Eloi: 3 publicades. Originals a `uni/PEF/El meu treball/Treball sostenibilitat/Eloi (originals)/`.
 - Sergi: 2 publicades («Sé qui ets», «Els mil·lisegons»), del PDF `Treball_Sostenibilitat_2.pdf` (pàg. 13-20), amb 5 imatges.
 - Timothy, Bernat: cap encara.
 
-Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Els enllaços es fan amb la carpeta: `{% post_url eloi/2026-11-11-slug %}`. Pendents ara: post 2 de Joan, «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
+Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Els enllaços es fan amb la carpeta: `{% post_url eloi/2026-11-11-slug %}`. Pendents ara: «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
 
 ## Normes del treball (cal tenir-les en compte en revisar entrades)
 

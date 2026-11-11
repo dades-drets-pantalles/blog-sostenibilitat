@@ -2,17 +2,17 @@
 - num: 1
   carpeta: eloi
   curt: "Què fa el teu mòbil quan no el mires"
-  autor: Eloi
+  autor: Eloi Estévez
   pregunta: "Quines dades genera un mòbil sense que la persona usuària faci res? Qui hi té accés i amb quina base legal?"
 - num: 2
   carpeta: sergi
   curt: "El negoci de saber qui ets"
-  autor: Sergi
+  autor: Sergi López
   pregunta: "Com funciona el model de negoci de la publicitat basada en dades de localització i comportament?"
 - num: 3
   carpeta: timothy
   curt: "Quan el risc no és igual per a tothom"
-  autor: Timothy
+  autor: Timothy Skipper
   pregunta: "Quins riscos específics tenen les persones en situació vulnerable: estafes, phishing, suplantació d'identitat, control per part de tercers?"
 - num: 4
   carpeta: joan
@@ -22,5 +22,5 @@
 - num: 5
   carpeta: bernat
   curt: "El que queda en un mòbil de segona mà"
-  autor: Bernat
+  autor: Bernat Casajuana
   pregunta: "Quins riscos afegeix un dispositiu de segona mà mal esborrat? Quins estàndards existeixen (NIST SP 800-88) i què impliquen?"
