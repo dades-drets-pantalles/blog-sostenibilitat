@@ -1,7 +1,7 @@
 ---
 title: "Phishing i a qui afecta"
 author: "Timothy Skipper"
-date: 2026-11-11 17:40:00 +0100
+date: 2026-11-11 17:39:00 +0100
 bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quan el risc no és igual per a tothom"
 ---
