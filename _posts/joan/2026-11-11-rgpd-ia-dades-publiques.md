@@ -36,7 +36,7 @@ Com pot una família exercir el dret a objectar a una cosa que ni tan sols sap q
 
 Esborrar un *datapoint* d'una base de dades és generalment fàcil. Això no obstant, eliminar l'efecte sobre l'entrenament d'una xarxa neuronal (arquitectura base dels *Large Language Models*) que va tenir una dada és impossible.
 
-I això és un problema. Perquè els models memoritzen. No perquè vulguin, sinó perquè el disseny dels procediments d'entrenament ho afavoreix. Si el teu número de telèfon és a l'internet, llavors es penalitzarà que el model s'equivoqui recitant-lo, això fa que l'aprengui. I no l'oblida. Un estudi de Nasr i coautors va aconseguir que ChatGPT donara informació personal en el 16,9% de les 15.000 sortides analitzades, contenint informació com telèfons i adreces associades a particulars [7].
+I això és un problema. Perquè els models memoritzen. No perquè vulguin, sinó perquè el disseny dels procediments d'entrenament ho afavoreix. Si el teu número de telèfon és a l'internet, llavors es penalitzarà que el model s'equivoqui recitant-lo, això fa que l'aprengui. I no l'oblida. Un estudi de Nasr i coautors va aconseguir que ChatGPT donara informació personal en el 16,9% de les 15.000 sortides analitzades, contenint informació com telèfons i adreces associades a particulars [7]. És difícil no esmentar quan suposadament OpenAI va furtar les dades sobre el problema de Navier-Stokes [10].
 
 El dret de supressió (art. 17) es veu profundament afectat per aquest fenomen. Les dades no es poden esborrar d'un model ja entrenat. Reentrenar un model base és caríssim (és entrenar amb tot l'internet i és una de les tasques per a les quals es necessiten tants centres de dades). El desaprenentatge és un problema extremadament difícil [8]. Hi ha qui proposa que la solució és filtrar les sortides. La llei diu «esborra» i la tecnologia respon «amaga».
 
@@ -63,3 +63,4 @@ Per tant, aprenem que la protecció ha d'arribar abans de la recollida de dades.
 7. Nasr, M. et al. (2023). *Scalable Extraction of Training Data from (Production) Language Models*. <https://arxiv.org/abs/2311.17035>
 8. Bourtoule, L. et al. *Machine Unlearning*. <https://arxiv.org/abs/1912.03817>
 9. noyb (20 de març de 2025). *AI hallucinations: ChatGPT created a fake child murderer*. <https://noyb.eu/en/ai-hallucinations-chatgpt-created-fake-child-murderer>
+10. TechStartups (9 de setembre de 2026). *OpenAI says it solved the 90-year-old Navier-Stokes math problem in 88 hours. Now it faces accusations of stealing researchers' work*. <https://techstartups.com/2026/09/09/openai-says-it-solved-the-90-year-old-navier-stokes-math-problem-in-88-hours-now-it-faces-accusations-of-stealing-researchers-work/>
