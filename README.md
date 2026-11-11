@@ -1,6 +1,6 @@
 # Blog del treball de sostenibilitat (PEF1)
 
-Web feta amb Jekyll i publicada amb GitHub Pages. Cada canvi a `main` es publica sol en 1-2 minuts.
+Web feta amb Jekyll i publicada amb GitHub Pages. Cada canvi a `main` es publica sol en 1-2 minuts. Hem fet servir Claude pel disseny del web i la cerca d'informació. 
 
 ## Estructura: una carpeta per autor
 
