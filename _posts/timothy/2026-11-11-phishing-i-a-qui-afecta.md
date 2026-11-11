@@ -6,8 +6,6 @@ bloc: "Privacitat, vigilància i seguretat digital"
 pregunta: "Quins riscos específics tenen les persones en situació vulnerable: estafes, phishing, suplantació d'identitat, control per part de tercers?"
 ---
 
-El phishing és una de les estafes amb més volum en internet, amb una figura estimada de 3 mil milions de correus enviats cada dia.
-
 El phishing és una de les estafes amb més volum en internet, amb una figura estimada de 3 mil milions de correus enviats cada dia. Pel que fa als atacs detectats, l’APWG en va observar 3,8 milions el 2025, lleugerament per sobre dels 3,76 milions del 2024 [2]. A Espanya, les estafes informàtiques van ser 430.493 el 2025, un 4,3% més que el 2024 [4], i durant el primer semestre del 2026 el 40% de les denúncies de ciutadans estava relacionat amb phishing, smishing o vishing [6].
 
 ## Què és el phishing?

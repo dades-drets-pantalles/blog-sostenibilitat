@@ -10,7 +10,7 @@ Per què quan eliminem un fitxer, formategem o restablim un mòbil de fàbrica, 
 
 ## Què significa realment eliminar un fitxer?
 
-Posem un exemple senzill. Imagina que tens una fotografia guardada al teu ordinador i decideixes eliminar-la. La fotografia desapareix de la carpeta i també de la paperera de reciclatge. Aparentment, ja no existeix. Però el que ha passat és que el sistema operatiu ha deixat de mostrar aquella fotografia com un fitxer disponible. Això no significa necessàriament que tota la informació que la formava hagi estat eliminada del suport físic. De manera que eliminar un fitxer implica únicament que el sistema operatiu ja no pot mostrar-lo, però part de la informació del fixer pot seguir continguda en un dispositiu d'emmagatzematge després que s'hagi intentat eliminar. Aquest tipus d’informació s’anomena Data remanence (persistència de dades).
+Posem un exemple senzill. Imagina que tens una fotografia guardada al teu ordinador i decideixes eliminar-la. La fotografia desapareix de la carpeta i també de la paperera de reciclatge. Aparentment, ja no existeix. Però el que ha passat és que el sistema operatiu ha deixat de mostrar aquella fotografia com un fitxer disponible. Això no significa necessàriament que tota la informació que la formava hagi estat eliminada del suport físic. De manera que eliminar un fitxer implica únicament que el sistema operatiu ja no pot mostrar-lo, però part de la informació del fitxer pot seguir continguda en un dispositiu d'emmagatzematge després que s'hagi intentat eliminar. Aquest tipus d’informació s’anomena Data remanence (persistència de dades).
 
 ## Quina diferència hi ha entre eliminar, formatar i esborrar de manera segura?
 
@@ -20,7 +20,7 @@ Tot i que aquestes tres paraules sovint es puguin servir com a sinònims, són t
 - **Formatar un dispositiu:** Formatar significa preparar un dispositiu perquè pugui tornar a emmagatzemar informació. Un formatatge ràpid, per exemple, pot eliminar les referències als fitxers sense sobreescriure tot el contingut anterior.
 - **Sanititzar un dispositiu (esborrar de manera segura):** És un procediment que busca fer inviable la recuperació de les dades anteriors, tenint en compte els recursos i el nivell d'esforç que podria utilitzar algú per recuperar-les. Això és precisament el que busquem.
 
-## L'esborrada criptogràfica (Cryptographic Erase)
+## L'esborrat criptogràfic (Cryptographic Erase)
 
 Alguns dispositius xifren automàticament les dades quan s'escriuen. Si s'eliminen de manera segura les claus necessàries per desxifrar-les, les dades xifrades poden quedar inaccessibles sense necessitat de sobreescriure cada bloc d'emmagatzematge. De manera que per “esborrar correctament” algunes dades n’hi ha prou amb fer desaparèixer les seves claus de xifratge i totes les còpies d’aquestes. Però cal tenir en compte algunes coses:
 
@@ -40,7 +40,7 @@ Un cop s’ha formatat o bé sanititzat un dispositiu, verificar que s’hagi po
 
 ## Conclusió
 
-Hem vist doncs que no és tan fàcil esborrar correctament la informació, i ni tan sols entendre amb claredat què vol dir “esborrar”. Però llavors, si no podem confiar simplement en l'opció de formatar o restablir de fàbrica, com podem saber quin procediment és realment segur? Si vols saber la resposta a aquesta pregunta llegeix el post **[NIST SP 800-88 i IEEE 2883: estàndards per a una esborrada segura]({{ '/2026/11/11/nist-sp-800-88/' | relative_url }})**.
+Hem vist doncs que no és tan fàcil esborrar correctament la informació, i ni tan sols entendre amb claredat què vol dir “esborrar”. Però llavors, si no podem confiar simplement en l'opció de formatar o restablir de fàbrica, com podem saber quin procediment és realment segur? Si vols saber la resposta a aquesta pregunta llegeix el post **[NIST SP 800-88 i IEEE 2883: estàndards per a un esborrat segur]({{ '/2026/11/11/nist-sp-800-88/' | relative_url }})**.
 
 ## Fonts
 

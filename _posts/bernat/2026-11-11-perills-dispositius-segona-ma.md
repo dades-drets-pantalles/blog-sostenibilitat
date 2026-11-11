@@ -10,7 +10,7 @@ Alguna vegada has vengut o regalat el teu mòbil? T’has plantejat si s’esbor
 
 ## Què passa quan venem un mòbil?
 
-Imagina que decideixes comprar un mòbil nou, de manera que ven el teu antic. Abans de vendre’l, però, lògicament elimines totes les fotografies, aplicacions i comptes. A més, no tenint-ne prou, fas un restabliment de fàbrica de manera que el dispositiu sembli nou, i el comprador el rep pensant que està completament net. Sorgeix una pregunta natural: podria el nou propietari recuperar fotografies, converses o contrasenyes teves? Avancem la resposta: eliminar la informació de manera aparent no sempre significa que les dades hagin desaparegut definitivament.
+Imagina que decideixes comprar un mòbil nou, de manera que vens el teu antic. Abans de vendre’l, però, lògicament elimines totes les fotografies, aplicacions i comptes. A més, no tenint-ne prou, fas un restabliment de fàbrica de manera que el dispositiu sembli nou, i el comprador el rep pensant que està completament net. Sorgeix una pregunta natural: podria el nou propietari recuperar fotografies, converses o contrasenyes teves? Avancem la resposta: eliminar la informació de manera aparent no sempre significa que les dades hagin desaparegut definitivament.
 
 ## Quines dades personals pot contenir un dispositiu?
 
@@ -39,7 +39,7 @@ Queda doncs clar que convé esborrar bé les dades sempre que el teu mòbil pass
 
 Aquesta qüestió s’ha abordat diverses vegades, en posem aquí un exemple concret.
 
-L’any 2023 tres investigadors de l’Universitat d’Amsterdam van abordar aquesta pregunta en el seu article **Assessing data remnants in modern smartphones after factory reset (Blankensteijn et al.)**. El seu objectiu era comprovar si les dades desapareixien realment després de restablir un mòbil. Van estudiar dispositius Android amb versions 11 i 12 que havien passat per un restabliment de fàbrica, dels quals van analitzar la informació emmagatzemada abans i després del restabliment. El resultat és que van trobar que algunes dades i traces d'informació continuaven presents després del procés.
+L’any 2023 tres investigadors de la Universitat d’Amsterdam van abordar aquesta pregunta en el seu article **Assessing data remnants in modern smartphones after factory reset (Blankesteijn et al.)**. El seu objectiu era comprovar si les dades desapareixien realment després de restablir un mòbil. Van estudiar dispositius Android amb versions 11 i 12 que havien passat per un restabliment de fàbrica, dels quals van analitzar la informació emmagatzemada abans i després del restabliment. El resultat és que van trobar que algunes dades i traces d'informació continuaven presents després del procés.
 
 Això no vol dir que recuperessin totes les fotografies o contrasenyes del propietari, però va quedar clar que es pot recuperar informació d’un dispositiu aparentment “net”.
 
