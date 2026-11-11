@@ -55,8 +55,7 @@ Així, allò que aparenta ser una aplicació gratuïta acaba sent una cadena: la
 
 Amb el perfil construït, hi manca un últim pas: algú l’ha de comprar. I això passa en l’instant en què obres una aplicació, en una subhasta de la qual no en sabies res. Què hi ha exactament en joc, i qui s’hi enriqueix? Ho veurem al [proper post]({{ '/2026/11/11/els-milisegons-de-la-discordia/' | relative_url }}).
 
-## Recull de fonts i pàgines vàries
-
+## Fonts
 - <https://www.openrightsgroup.org/press-releases/news-release-mobile-adtech-out-of-control/>
 - <https://techcrunch.com/2020/01/14/dating-and-fertility-apps-among-those-snitching-to-out-of-control-adtech-report-finds/>
 - <https://oit.utk.edu/security/learning-library/article-archive/what-is-a-data-broker/>

@@ -46,8 +46,7 @@ La pregunta natural que tot lector es farà a continuació és on van a parar el
 
 Per acabar, tot i que la publicitat programàtica és avui dia força opaca, diverses actuacions han tingut lloc per reduir l’aglutinació de poder. El cas recent més rellevant data del setembre de 2025, després que la UE multés Google amb 2,95 milers de milions d’euros a causa del seu abús dominant. En concret, segons va decretar un tribunal dels Estats Units, Google havia mantingut il·legalment monopolis en els servidors d’anuncis dels editors i en les borses d’anuncis, tot lligant AdX, la seva borsa, al seu servidor d’anuncis. El setembre del 2026 es va decidir, però, no obligar-la a vendre AdX, sinó aplicar mesures de conducta durant 6 anys. Aquest, doncs, és un exemple clar de la necessitat de col·locar sota un marc legal més estricte qui i de quina manera té control sobre les DSP, les SSP i els Ad Exchange i com, avui dia, els ingressos publicitaris d’empreses pioneres com Meta o Google són desmesurats.
 
-## Recull de fonts
-
+## Fonts
 - <https://www.avenga.com/magazine/first-price-second-price-auction/>
 - <https://www.adissey.com/flow/conexiones/publicidad-programatica-como-funciona>
 - <https://www.adsmurai.com/es/articulos/que-es-la-publicidad-programatica-y-como-funciona>

@@ -37,18 +37,17 @@ Dels destinataris mencionats anteriorment, el més preocupant són els intermedi
 Si vols saber més sobre el model de negoci de la publicitat basat en aquestes dades, llegeix els nostres articles:
 
 - [Els mil·lisegons de la discòrdia]({{ '/2026/11/11/els-milisegons-de-la-discordia/' | relative_url }})
-- Post 2 de Sergi <!-- enllaç pendent: segona entrada de Sergi -->
+- [Sé qui ets: construint perfils]({{ '/2026/11/11/se-qui-ets-construint-perfils/' | relative_url }})
 
 ## En resum
 
 La major part de les dades es queden entre tu, el sistema i l’app que fas servir. El problema comença quan una app comparteix amb tercers, i aquests amb uns altres, fins que una dada que ha sortit del teu telèfon ja no la controla ningú.
 
-Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: Auditoria de permisos i traçadors aplicacions d'ús habitual. <!-- enllaç pendent: entrada de l'encàrrec propi -->
+Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: [Auditoria de permisos i traçadors aplicacions d'ús habitual]({{ '/2026/11/11/auditoria-permisos-i-tracadors/' | relative_url }}).
 
 Vols saber quines són les lleis que regulen tot això? Llegeix el següent post: [Quines regles protegeixen les dades del teu mòbil?]({{ '/2026/11/11/regles-dades-mobil/' | relative_url }})
 
-## Per saber-ne més
-
+## Fonts
 - EFF (2026). [Developers: Beware of Ad Libraries that Betray Your Users’ Location Privacy](https://www.eff.org/deeplinks/2026/07/developers-beware-ad-libraries-betray-your-users-location-privacy).
 - TechCrunch (2025). [Phone location data of top EU officials for sale, report finds](https://techcrunch.com/2025/11/04/phone-location-data-of-top-eu-officials-for-sale-report-finds/).
 - The Record. [FTC targets companies that collected and sold sensitive location data](https://therecord.media/ftc-location-data-brokers-gravy-venntel-mobilewalla).

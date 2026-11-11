@@ -60,8 +60,7 @@ Llegeix els nostres posts:
 - [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({{ '/2026/11/11/consentiment-digital/' | relative_url }})
 - [Ningú no t'ha demanat permís: el RGPD davant la intel·ligència artificial]({{ '/2026/11/11/rgpd-ia-dades-publiques/' | relative_url }})
 
-## Per saber-ne més
-
+## Fonts
 - EDPB (octubre de 2024). [Guidelines 2/2023 on Technical Scope of Art. 5(3) of ePrivacy Directive](https://edpb.europa.eu/system/files/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf).
 - Directiva 2002/58/CE (ePrivacy), art. 5.3. [Text de la Directiva](https://www.edps.europa.eu/sites/default/files/publication/dir_2002_58_es.pdf) (regla del consentiment per accedir a la informació d'un dispositiu).
 - AEPD (2019). [La AEPD presenta junto a la industria una guía sobre el uso de cookies](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-presenta-junto-la-industria-una-guia-sobre-el-uso-de) (nota de premsa: relaciona l'art. 22.2 de la LSSI amb el RGPD i la LOPDGDD).

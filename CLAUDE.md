@@ -16,9 +16,13 @@ Membres i pregunta guia a `_data/preguntes.yml` (1 Eloi Estévez, 2 Sergi López
 - Joan: 2 publicades (consentiment; IA i dades públiques). Falta la tercera.
 - Eloi: 3 publicades. Originals a `uni/PEF/El meu treball/Treball sostenibilitat/Eloi (originals)/`.
 - Sergi: 2 publicades («Sé qui ets», «Els mil·lisegons»), del PDF `Treball_Sostenibilitat_2.pdf` (pàg. 13-20), amb 5 imatges.
-- Timothy, Bernat: cap encara.
+- Timothy: 2 publicades (phishing; xarxes socials). Notes al peu passades a [n] + llista «Fonts».
+- Bernat: 3 publicades (segona mà, esborrar no és destruir, NIST SP 800-88), del docx `Treball Sostenibilitat.docx`.
+- Grup (`_posts/grup/`): auditoria de permisos i traçadors (encàrrec propi, 5 imatges a `assets/img/grup/`) i conclusions. Surten a la portada i a l'arxiu en una secció pròpia.
 
-Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({{ '/2026/11/11/slug/' | relative_url }})` (l'adreça de l'entrada: data + nom del fitxer sense la data). **No facis servir `{% post_url %}`**: GitHub Pages (Jekyll 3.10) no hi afegeix `/blog-sostenibilitat/` i l'enllaç dona 404, mentre que Jekyll 4 en local sí, i així no es veu l'error. Després de compilar, comprova que tots els enllaços interns existeixen. Pendents ara: «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
+Totes les entrades tanquen amb una secció `## Fonts` (nom unificat; no feu servir «Referències», «Per saber-ne més», etc.).
+
+Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({{ '/2026/11/11/slug/' | relative_url }})` (l'adreça de l'entrada: data + nom del fitxer sense la data). **No facis servir `{% post_url %}`**: GitHub Pages (Jekyll 3.10) no hi afegeix `/blog-sostenibilitat/` i l'enllaç dona 404, mentre que Jekyll 4 en local sí, i així no es veu l'error. Després de compilar, comprova que tots els enllaços interns existeixen. Pendents ara: cap.
 
 ## Normes del treball (cal tenir-les en compte en revisar entrades)
 

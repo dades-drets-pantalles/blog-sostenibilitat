@@ -51,6 +51,26 @@ title: Inici
   </ul>
 </section>
 
+{% assign gdir = '_posts/grup/' %}{% assign grup = site.posts | where_exp: "p", "p.path contains gdir" | reverse %}
+{% if grup.size > 0 %}
+<section class="wrap wide section">
+  <h2 class="section-title plain">Encàrrec propi i conclusions</h2>
+  <ul class="informes">
+    {% for post in grup %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="inf-main">
+          <strong>{{ post.title }}</strong>
+          <span>{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 22 }}{% endif %}</span>
+        </span>
+        <span class="mono inf-meta">[{{ post.bloc }}] · [{% include temps.html text=post.content curt=true %}]</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <section class="wrap wide section">
   <h2 class="section-title plain">Darrers informes</h2>
   <ul class="informes">

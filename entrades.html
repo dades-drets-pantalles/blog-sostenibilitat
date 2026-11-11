@@ -36,3 +36,24 @@ permalink: /entrades/
   {% endif %}
 </section>
 {% endfor %}
+{% assign gdir = '_posts/grup/' %}{% assign grup = site.posts | where_exp: "p", "p.path contains gdir" | reverse %}
+{% if grup.size > 0 %}
+<section class="wrap wide section arxiu" id="encarrec">
+  <header class="arxiu-head">
+    <p class="mono exp-num">Tot el grup</p>
+    <h2>Encàrrec propi i conclusions</h2>
+    <p class="exp-q">L'auditoria de permisos i traçadors d'aplicacions d'ús habitual i les conclusions dels cinc expedients.</p>
+  </header>
+  <ol class="cards">
+    {% for post in grup %}
+    <li class="card">
+      <a href="{{ post.url | relative_url }}">
+        <p class="mono exp-num">{{ post.bloc }} · {% include temps.html text=post.content curt=true %}</p>
+        <h3>{{ post.title }}</h3>
+        <p class="excerpt">{% if post.resum %}{{ post.resum }}{% else %}{{ post.excerpt | strip_html | truncatewords: 30 }}{% endif %}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}

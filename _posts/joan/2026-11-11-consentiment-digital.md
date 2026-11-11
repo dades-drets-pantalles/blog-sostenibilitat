@@ -50,8 +50,7 @@ Aquesta asimetria pesa més en qui té menys marge. El projecte VINCLE DIGITAL l
 
 Una darrera reflexió crítica. Limitar el tractament de les dades redueix els beneficis de les petites plataformes informatives. Això incrementaria la importància del finançament per part d'empreses grans o lobbies a l'hora d'influir en el missatge que arriba al lector. Moltes *fake news* no necessiten les teves dades per ser rentables.
 
-## Referències
-
+## Fonts
 1. Reglament (UE) 2016/679 (RGPD): arts. 4, 6 i 7. <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 2. Comissió Europea (2019). *Special Eurobarometer 487a: The General Data Protection Regulation*. <https://cnpd.public.lu/dam-assets/fr/actualites/international/2019/ebs487a-GDPR-sum-en.pdf>
 3. Obar, J. A. i Oeldorf-Hirsch, A. *The Biggest Lie on the Internet*. *Information, Communication & Society*. <https://papers.ssrn.com/abstract=2757465>

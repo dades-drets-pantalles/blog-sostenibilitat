@@ -52,8 +52,7 @@ Ja sabem que el RGPD no considera suficient que les dades siguin públiques, per
 
 Per tant, aprenem que la protecció ha d'arribar abans de la recollida de dades. Els usuaris han d'evitar compartir aquestes dades en primer lloc. A més, la legislació s'ha de posar al dia i construir mecanismes eficaços per responsabilitzar les empreses de forma pràctica. Idealment, s'hauria de demanar responsabilitat moral per part de les grans tecnològiques. Idealment.
 
-## Referències
-
+## Fonts
 1. Reglament (UE) 2016/679 (RGPD): arts. 5, 6, 14, 17 i 21. <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 2. CEPD (2026). *Guidelines 03/2026 on web scraping in the context of generative AI*, versió 1.0 per a consulta pública, adoptada el 7 de juliol de 2026. <https://www.edpb.europa.eu/system/files/2026-07/edpb_guidelines_2020603_webscraping_v1_en_0.pdf>
 3. CEPD (2024). *Opinion 28/2024 on certain data protection aspects related to the processing of personal data in the context of AI models*, adoptada el 17 de desembre de 2024. <https://www.edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf>

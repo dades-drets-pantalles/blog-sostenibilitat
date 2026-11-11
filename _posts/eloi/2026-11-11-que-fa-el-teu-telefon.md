@@ -35,14 +35,13 @@ A més de l’identificador publicitari, hi ha moltes dades que recullen les apl
 
 Si tens Android, pots veure quins rastrejadors porta cada app amb l'eina Exodus Privacy, d'una organització francesa sense ànim de lucre. Només detecta rastrejadors ja identificats i no diu quines dades envien, però és un bon punt de partida.
 
-Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: Auditoria de permisos i traçadors aplicacions d'ús habitual. <!-- enllaç pendent: entrada de l'encàrrec propi -->
+Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: [Auditoria de permisos i traçadors aplicacions d'ús habitual]({{ '/2026/11/11/auditoria-permisos-i-tracadors/' | relative_url }}).
 
 ## En resum
 
 El teu telèfon no és mai del tot en repòs: sempre està informant de qui és, on és i què fa. La part important no és només què genera, sinó qui ho rep. Vols saber qui rep tota aquesta informació i què en pot fer? Llegeix la part 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({{ '/2026/11/11/de-la-metrica-al-mercat/' | relative_url }})
 
-## Per saber-ne més
-
+## Fonts
 - Leith, D. J. (2021). [Mobile Handset Privacy: Measuring the Data iOS and Android Send to Apple and Google](https://www.scss.tcd.ie/doug.leith/apple_google.pdf).
 - Liu, H., Patras, P., Leith, D. J. (PLOS ONE, 2023). [On the data privacy practices of Android OEMs](https://www.pure.ed.ac.uk/ws/portalfiles/portal/322300736/On_the_Data_LIU_DOA_28122022_VOR_CC_BY.pdf).
 - Apple. [Limit precise location from cellular networks](https://support.apple.com/126101).
