@@ -10,6 +10,15 @@ Quan algú pugi documents (al repo `uni`, a `PEF/El meu treball/Treball sostenib
 3. Si un document és un esborrany o té dubtes pendents, pregunta abans de publicar-lo (o posa `published: false`).
 4. Compila (`jekyll build`), fes commit i push a `main`. Elimina l'original de `pendents/` un cop publicat.
 
+## Estat de les entrades
+
+Membres: Joan Pascual, Eloi, Bernat, Sergi, Timothy (3 entrades cadascú).
+- Joan: 1 publicada (consentiment). Pendents: entrada 2 (IA i dades públiques, a `uni`, amb dubtes oberts a `RGPD - Dubtes i revisió.md`) i una tercera.
+- Eloi: 3 publicades (sèrie sobre les dades del mòbil). Originals a `uni/PEF/El meu treball/Treball sostenibilitat/Eloi (originals)/`.
+- Bernat, Sergi, Timothy: cap encara.
+
+Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Pendents ara: post 2 de Joan, post 2 de Sergi, «Els mil·lisegons de la discòrdia», «Auditoria de permisos i traçadors» (encàrrec propi).
+
 ## Normes del treball (cal tenir-les en compte en revisar entrades)
 
 L'enunciat complet no és al repositori: si es puja, resumeix-lo aquí. El que sabem:

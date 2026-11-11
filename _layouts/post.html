@@ -34,12 +34,12 @@ layout: default
   var body = document.querySelector('.post-body');
   if (!body) return;
   var h = Array.prototype.find.call(body.querySelectorAll('h2'), function (e) {
-    return /^refer[eè]ncies$/i.test(e.textContent.trim());
+    return /^(refer[eè]ncies|per saber-ne m[eé]s|fonts)$/i.test(e.textContent.trim());
   });
   if (!h) return;
   h.classList.add('refs-title');
   var ol = h.nextElementSibling;
-  while (ol && ol.tagName !== 'OL') ol = ol.nextElementSibling;
+  while (ol && ol.tagName !== 'OL' && ol.tagName !== 'UL') ol = ol.nextElementSibling;
   if (!ol) return;
   ol.classList.add('refs');
   var start = parseInt(ol.getAttribute('start') || '1', 10);
