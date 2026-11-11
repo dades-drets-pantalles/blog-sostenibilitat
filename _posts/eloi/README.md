@@ -37,7 +37,7 @@ Puja-les a `assets/img/eloi/` i posa-les així:
 ## Enllaçar una altra entrada
 
 ```liquid
-[Títol]({% post_url eloi/2026-11-11-que-fa-el-teu-telefon %})
+[Títol]({{ '/2026/11/11/que-fa-el-teu-telefon/' | relative_url }})
 ```
 
-(carpeta de l'autor / nom del fitxer sense `.md`).
+(l'adreça de l'entrada: data i nom del fitxer sense la data, amb barres. No facis servir `post_url`: a GitHub Pages trenca l'enllaç).

@@ -18,7 +18,7 @@ Membres i pregunta guia a `_data/preguntes.yml` (1 Eloi Estévez, 2 Sergi López
 - Sergi: 2 publicades («Sé qui ets», «Els mil·lisegons»), del PDF `Treball_Sostenibilitat_2.pdf` (pàg. 13-20), amb 5 imatges.
 - Timothy, Bernat: cap encara.
 
-Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({% post_url slug %})`. Els enllaços es fan amb la carpeta: `{% post_url eloi/2026-11-11-slug %}`. Pendents ara: «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
+Enllaços entre entrades: quan un autor escriu «-Post N Nom» vol dir un enllaç a aquella entrada. Si encara no existeix, es deixa el text amb un comentari `<!-- enllaç pendent: ... -->`; quan es publiqui l'entrada, substitueix-lo per `[títol]({{ '/2026/11/11/slug/' | relative_url }})` (l'adreça de l'entrada: data + nom del fitxer sense la data). **No facis servir `{% post_url %}`**: GitHub Pages (Jekyll 3.10) no hi afegeix `/blog-sostenibilitat/` i l'enllaç dona 404, mentre que Jekyll 4 en local sí, i així no es veu l'error. Després de compilar, comprova que tots els enllaços interns existeixen. Pendents ara: «Post 2 Sergi» (a l'entrada 2 de l'Eloi; no és clar a quina es refereix, ja que també enllaça «Els mil·lisegons»), «Auditoria de permisos i traçadors» (encàrrec propi).
 
 ## Normes del treball (cal tenir-les en compte en revisar entrades)
 

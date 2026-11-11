@@ -53,7 +53,7 @@ La pràctica habitual és aplicar el que es coneix com **cross-device identity r
 
 Així, allò que aparenta ser una aplicació gratuïta acaba sent una cadena: la publicitat paga el servei, el servei necessita dades, i les dades, un cop recombinades, donen lloc a un perfil molt complet que permet anticipar què t’interessarà o què faràs. Aquí és on rau el valor: en la capacitat de predir i conèixer algú més que la pròpia persona.
 
-Amb el perfil construït, hi manca un últim pas: algú l’ha de comprar. I això passa en l’instant en què obres una aplicació, en una subhasta de la qual no en sabies res. Què hi ha exactament en joc, i qui s’hi enriqueix? Ho veurem al [proper post]({% post_url sergi/2026-11-11-els-milisegons-de-la-discordia %}).
+Amb el perfil construït, hi manca un últim pas: algú l’ha de comprar. I això passa en l’instant en què obres una aplicació, en una subhasta de la qual no en sabies res. Què hi ha exactament en joc, i qui s’hi enriqueix? Ho veurem al [proper post]({{ '/2026/11/11/els-milisegons-de-la-discordia/' | relative_url }}).
 
 ## Recull de fonts i pàgines vàries
 

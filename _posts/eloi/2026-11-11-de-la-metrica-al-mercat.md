@@ -8,7 +8,7 @@ date: 2026-11-11 11:20:00 +0100
 
 Al primer post vam veure que el telèfon genera dades sense parar: què fa, on és, com es mou i quin «número» porta. Ara toca la pregunta següent: on van a parar? Què poden saber de tu amb elles? I per a què les fan servir?
 
-Encara no has llegit el primer post? El pots trobar aquí: [Què fa el teu telèfon quan no el veus?]({% post_url eloi/2026-11-11-que-fa-el-teu-telefon %})
+Encara no has llegit el primer post? El pots trobar aquí: [Què fa el teu telèfon quan no el veus?]({{ '/2026/11/11/que-fa-el-teu-telefon/' | relative_url }})
 
 ## 1. Qui les rep?
 
@@ -36,7 +36,7 @@ Dels destinataris mencionats anteriorment, el més preocupant són els intermedi
 
 Si vols saber més sobre el model de negoci de la publicitat basat en aquestes dades, llegeix els nostres articles:
 
-- [Els mil·lisegons de la discòrdia]({% post_url sergi/2026-11-11-els-milisegons-de-la-discordia %})
+- [Els mil·lisegons de la discòrdia]({{ '/2026/11/11/els-milisegons-de-la-discordia/' | relative_url }})
 - Post 2 de Sergi <!-- enllaç pendent: segona entrada de Sergi -->
 
 ## En resum
@@ -45,7 +45,7 @@ La major part de les dades es queden entre tu, el sistema i l’app que fas serv
 
 Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? Llegeix el nostre post: Auditoria de permisos i traçadors aplicacions d'ús habitual. <!-- enllaç pendent: entrada de l'encàrrec propi -->
 
-Vols saber quines són les lleis que regulen tot això? Llegeix el següent post: [Quines regles protegeixen les dades del teu mòbil?]({% post_url eloi/2026-11-11-regles-dades-mobil %})
+Vols saber quines són les lleis que regulen tot això? Llegeix el següent post: [Quines regles protegeixen les dades del teu mòbil?]({{ '/2026/11/11/regles-dades-mobil/' | relative_url }})
 
 ## Per saber-ne més
 

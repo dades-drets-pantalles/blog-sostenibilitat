@@ -39,7 +39,7 @@ Vols saber més sobre quins rastrejadors porten les apps que usem diàriament? L
 
 ## En resum
 
-El teu telèfon no és mai del tot en repòs: sempre està informant de qui és, on és i què fa. La part important no és només què genera, sinó qui ho rep. Vols saber qui rep tota aquesta informació i què en pot fer? Llegeix la part 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url eloi/2026-11-11-de-la-metrica-al-mercat %})
+El teu telèfon no és mai del tot en repòs: sempre està informant de qui és, on és i què fa. La part important no és només què genera, sinó qui ho rep. Vols saber qui rep tota aquesta informació i què en pot fer? Llegeix la part 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({{ '/2026/11/11/de-la-metrica-al-mercat/' | relative_url }})
 
 ## Per saber-ne més
 

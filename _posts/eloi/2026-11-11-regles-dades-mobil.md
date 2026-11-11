@@ -10,8 +10,8 @@ Als dos primers posts hem vist què genera el telèfon i on pot acabar. Ara toca
 
 Si encara no has vist els primers posts:
 
-- Post 1: [Què fa el teu telèfon quan no el veus?]({% post_url eloi/2026-11-11-que-fa-el-teu-telefon %})
-- Post 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({% post_url eloi/2026-11-11-de-la-metrica-al-mercat %})
+- Post 1: [Què fa el teu telèfon quan no el veus?]({{ '/2026/11/11/que-fa-el-teu-telefon/' | relative_url }})
+- Post 2: [De la teva mètrica al mercat: qui té accés a les dades del teu mòbil i què en fa?]({{ '/2026/11/11/de-la-metrica-al-mercat/' | relative_url }})
 
 ## 1. Dues normes, dues preguntes
 
@@ -57,8 +57,8 @@ Vols saber més sobre la legislació de protecció de dades i el RGPD?
 
 Llegeix els nostres posts:
 
-- [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({% post_url joan/2026-11-11-consentiment-digital %})
-- [Ningú no t'ha demanat permís: el RGPD davant la intel·ligència artificial]({% post_url joan/2026-11-11-rgpd-ia-dades-publiques %})
+- [«He llegit i accepto»: per què el consentiment digital sovint és una ficció]({{ '/2026/11/11/consentiment-digital/' | relative_url }})
+- [Ningú no t'ha demanat permís: el RGPD davant la intel·ligència artificial]({{ '/2026/11/11/rgpd-ia-dades-publiques/' | relative_url }})
 
 ## Per saber-ne més
 
