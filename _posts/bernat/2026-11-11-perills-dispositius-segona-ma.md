@@ -51,5 +51,5 @@ Però encara no hem abordat la pregunta: per què les dades poden continuar pres
 
 ## Fonts
 
-- [https://www.sciencedirect.com/science/article/pii/S2666281723000963](https://www.sciencedirect.com/science/article/pii/S2666281723000963?utm_source=chatgpt.com)
-- [https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media](https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media?utm_source=chatgpt.com)
+- <https://www.sciencedirect.com/science/article/pii/S2666281723000963>
+- <https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media>

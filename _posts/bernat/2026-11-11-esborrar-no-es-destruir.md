@@ -40,10 +40,10 @@ Un cop s’ha formatat o bé sanititzat un dispositiu, verificar que s’hagi po
 
 ## Conclusió
 
-Hem vist doncs que no és tan fàcil esborrar correctament la informació, i ni tan sols entendre amb claredat què vol dir “esborrar”. Però llavors, si no podem confiar simplement en l'opció de formatar o restablir de fàbrica, com podem saber quin procediment és realment segur? Si vols saber la resposta a aquesta pregunta llegeix el post **[NIST SP 800-88 i IEEE 2883: estàndards per a un esborrat segur]({{ '/2026/11/11/nist-sp-800-88/' | relative_url }})**.
+Hem vist doncs que no és tan fàcil esborrar correctament la informació, i ni tan sols entendre amb claredat què vol dir “esborrar”. Però llavors, si no podem confiar simplement en l'opció de formatar o restablir de fàbrica, com podem saber quin procediment és realment segur? Si vols saber la resposta a aquesta pregunta llegeix el post **[NIST SP 800-88: estàndards per a un esborrat segur]({{ '/2026/11/11/nist-sp-800-88/' | relative_url }})**.
 
 ## Fonts
 
-- [https://www.sciencedirect.com/science/article/pii/S2666281723000963](https://www.sciencedirect.com/science/article/pii/S2666281723000963?utm_source=chatgpt.com)
-- [https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media](https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media?utm_source=chatgpt.com)
+- <https://www.sciencedirect.com/science/article/pii/S2666281723000963>
+- <https://www.ncsc.gov.uk/guidance/secure-sanitisation-storage-media>
 - [https://csrc.nist.gov/pubs/sp/800/88/r2/final](https://csrc.nist.gov/pubs/sp/800/88/r2/final)
