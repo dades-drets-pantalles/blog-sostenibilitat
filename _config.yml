@@ -1,0 +1,28 @@
+# Configuració del blog. Canvieu el títol i la descripció quan tingueu el nom definitiu.
+title: "Dades, drets i pantalles"
+description: "Bloc del treball de sostenibilitat de PEF1 (ETSETB, UPC): privacitat, vigilància i seguretat digital."
+lang: ca
+
+# No toqueu `url` ni `baseurl`: GitHub Pages els omple sol segons el nom del repositori.
+
+permalink: /:year/:month/:day/:title/
+timezone: Europe/Madrid
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: default }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

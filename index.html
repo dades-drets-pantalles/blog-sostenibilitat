@@ -1,0 +1,18 @@
+---
+layout: default
+title: Entrades
+---
+<section class="intro">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</section>
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    {% if post.bloc %}<p class="bloc">{{ post.bloc }}</p>{% endif %}
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="meta">{% if post.author %}{{ post.author }} · {% endif %}{% include data.html date=post.date %}</p>
+    {% if post.resum %}<p>{{ post.resum }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

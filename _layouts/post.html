@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.bloc %}<p class="bloc">{{ page.bloc }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.author %}{{ page.author }} · {% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{% include data.html date=page.date %}</time>
+    </p>
+    {% if page.pregunta %}<p class="pregunta"><strong>Pregunta guia:</strong> {{ page.pregunta }}</p>{% endif %}
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <nav class="post-nav">
+    {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>{% endif %}
+  </nav>
+</article>

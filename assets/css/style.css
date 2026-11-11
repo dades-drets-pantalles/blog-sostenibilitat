@@ -1,0 +1,41 @@
+:root {
+  --bg: #fbfaf7; --text: #1f2328; --muted: #5f6670; --accent: #2f6f4f;
+  --rule: #e3e0d8; --code-bg: #f1efe9;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #16181b; --text: #e6e6e3; --muted: #9aa0a6; --accent: #7cc49b; --rule: #2c3035; --code-bg: #22262b; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 18px/1.65 Georgia, "Iowan Old Style", "Times New Roman", serif; }
+.wrap { max-width: 42rem; margin: 0 auto; padding: 0 16px; }
+a { color: var(--accent); }
+.site-header { border-bottom: 1px solid var(--rule); padding: 1rem 0; font-family: system-ui, sans-serif; }
+.site-header .wrap { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: baseline; justify-content: space-between; }
+.site-title { font-weight: 700; color: var(--text); text-decoration: none; font-size: 1.1rem; }
+.site-header nav a { margin-left: 1rem; font-size: .95rem; text-decoration: none; }
+.site-header nav a:first-child { margin-left: 0; }
+main { padding: 2rem 16px 3rem; }
+h1, h2, h3 { font-family: system-ui, sans-serif; line-height: 1.25; }
+h1 { font-size: 2rem; margin: .2rem 0 .6rem; }
+h2 { font-size: 1.35rem; margin-top: 2.2rem; }
+.bloc { font-family: system-ui, sans-serif; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin: 0; }
+.meta { color: var(--muted); font-family: system-ui, sans-serif; font-size: .9rem; margin: 0 0 1rem; }
+.pregunta { border-left: 3px solid var(--accent); padding-left: 1rem; color: var(--muted); font-style: italic; }
+.post-header { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; margin-bottom: 1.5rem; }
+.post-body img { max-width: 100%; height: auto; }
+.post-body table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; font-size: .95rem; }
+.post-body th, .post-body td { border: 1px solid var(--rule); padding: .4rem .6rem; text-align: left; vertical-align: top; }
+.post-body blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--rule); color: var(--muted); }
+.post-body code { background: var(--code-bg); padding: .1em .3em; border-radius: 3px; }
+.post-body ol li, .post-body ul li { margin-bottom: .3rem; }
+.post-body a { overflow-wrap: anywhere; }
+.post-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 1rem; font-family: system-ui, sans-serif; font-size: .9rem; }
+.intro p { color: var(--muted); }
+.post-list { list-style: none; padding: 0; }
+.post-list li { padding: 1.2rem 0; border-bottom: 1px solid var(--rule); }
+.post-list h2 { margin: .2rem 0; font-size: 1.3rem; }
+.post-list h2 a { color: var(--text); text-decoration: none; }
+.post-list h2 a:hover { color: var(--accent); }
+.site-footer { border-top: 1px solid var(--rule); color: var(--muted); font: .85rem system-ui, sans-serif; padding: 1.5rem 0; }
